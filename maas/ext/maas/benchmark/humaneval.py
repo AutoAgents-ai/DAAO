@@ -125,7 +125,7 @@ class HumanEvalBenchmark(BaseBenchmark):
         )
 
         try:
-            prediction, cost, logprob = await self._generate_output(graph, input_text, data["entry_point"])
+            prediction, cost, logprob, vae = await self._generate_output(graph, input_text, data["entry_point"])
 
             if not prediction:
                 raise ValueError("Prediction is empty")
@@ -138,20 +138,37 @@ class HumanEvalBenchmark(BaseBenchmark):
             score = 1.0 if ret[0] == self.PASS else 0.0
             if score == 0:
                 self.log_mismatch(input_text, expected_output, prediction, score)
+                vae["is_solved"] = 0
+            else:
+                vae["is_solved"] = 1
 
-            return input_text, prediction, expected_output, score, cost, logprob
+            return input_text, prediction, expected_output, score, cost, logprob, vae
 
         except asyncio.TimeoutError:
             logger.info("Timeout error. Skipping this sample.")
-            return input_text, "Timeout", expected_output, 0.0, 0.0, torch.tensor(0.0, dtype=torch.float32, device=self.device)
+            vae = {
+                    "z_difficulty": torch.zeros((1, 32), device=self.device),
+                   "difficulty_scalar":torch.tensor(0.5, device=self.device),
+                   "mu":torch.zeros((1, 32), device=self.device),
+                   "logvar": torch.zeros((1, 32), device=self.device),
+                   "is_solved": 0
+            }
+            return input_text, "Timeout", expected_output, 0.0, 0.0, torch.tensor(0.0, dtype=torch.float32, device=self.device), vae
 
         except Exception as e:
             logger.info(f"Maximum retries reached. Skipping this sample. Error: {e}") 
-            return input_text, "Timeout", expected_output, 0.0, 0.0, torch.tensor(0.0, dtype=torch.float32, device=self.device)
+            vae = {
+                    "z_difficulty": torch.zeros((1, 32), device=self.device),
+                   "difficulty_scalar":torch.tensor(0.5, device=self.device),
+                   "mu":torch.zeros((1, 32), device=self.device),
+                   "logvar": torch.zeros((1, 32), device=self.device),
+                   "is_solved": 0
+            }
+            return input_text, "Timeout", expected_output, 0.0, 0.0, torch.tensor(0.0, dtype=torch.float32, device=self.device), vae
 
     def calculate_score(self, expected_output: str, prediction: str) -> Tuple[float, str]:
         return 0.0, prediction
 
     def get_result_columns(self) -> List[str]:
-        return ["inputs", "prediction", "expected_output", "score", "cost", "logprob"]
+        return ["inputs", "prediction", "expected_output", "score", "cost", "logprob", "vae"]
 

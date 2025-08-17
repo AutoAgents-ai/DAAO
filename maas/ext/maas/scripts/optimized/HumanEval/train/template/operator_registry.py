@@ -5,7 +5,6 @@ from maas.ext.maas.scripts.optimized.HumanEval.train.template.operator import (
     ScEnsemble,
     Test,
     SelfRefine,
-    EarlyStop
 )
 
 operator_mapping = {
@@ -15,7 +14,6 @@ operator_mapping = {
     "ScEnsemble": ScEnsemble,
     "Test": Test,
     "SelfRefine": SelfRefine,
-    "EarlyStop": EarlyStop,
 }
 
 operator_names = list(operator_mapping.keys())

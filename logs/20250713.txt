@@ -1,0 +1,710 @@
+2025-07-13 13:47:21.316 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 13:47:21.359 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 13:47:40.992 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 13:47:40.993 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 13:47:40.993 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 13:47:40.993 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 13:47:40.994 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 13:47:40.994 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 13:47:45.999 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 14:58:20.516 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 14:58:20.553 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 14:58:40.202 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 14:58:40.202 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 14:58:40.202 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 14:58:40.203 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 14:58:40.203 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 14:58:40.203 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 14:58:45.208 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 15:26:40.772 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 15:26:40.809 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 15:27:00.426 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 15:27:00.427 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 15:27:00.427 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 15:27:00.427 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 15:27:00.429 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 15:27:00.429 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 15:27:05.434 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 15:30:36.965 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 15:30:37.001 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 15:30:56.692 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 15:30:56.692 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 15:30:56.693 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 15:30:56.693 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Tensors must have same number of dimensions: got 2 and 3
+2025-07-13 15:30:56.693 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 15:30:56.694 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 15:31:01.699 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 15:38:53.212 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 15:38:53.250 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 15:42:16.060 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 15:42:16.098 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 15:42:51.112 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 15:42:51.150 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 15:49:19.445 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 15:49:19.482 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 15:50:10.569 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 15:50:10.606 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 15:53:16.909 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 15:53:16.946 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 15:53:36.943 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: stack(): argument 'tensors' (position 1) must be tuple of Tensors, not Tensor
+2025-07-13 15:53:36.944 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: stack(): argument 'tensors' (position 1) must be tuple of Tensors, not Tensor
+2025-07-13 15:53:36.944 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: stack(): argument 'tensors' (position 1) must be tuple of Tensors, not Tensor
+2025-07-13 15:53:36.944 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: stack(): argument 'tensors' (position 1) must be tuple of Tensors, not Tensor
+2025-07-13 15:53:36.945 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 15:53:36.945 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 15:53:41.951 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 15:55:45.971 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 15:55:46.008 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 15:56:06.076 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: mat1 and mat2 shapes cannot be multiplied (7x384 and 768x32)
+2025-07-13 15:56:06.077 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: mat1 and mat2 shapes cannot be multiplied (7x384 and 768x32)
+2025-07-13 15:56:06.077 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: mat1 and mat2 shapes cannot be multiplied (7x384 and 768x32)
+2025-07-13 15:56:06.077 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: mat1 and mat2 shapes cannot be multiplied (7x384 and 768x32)
+2025-07-13 15:56:06.078 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 15:56:06.078 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 15:56:11.082 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 16:06:47.751 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 16:06:47.788 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 16:07:08.319 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: 'int' object is not subscriptable
+2025-07-13 16:07:08.319 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: 'int' object is not subscriptable
+2025-07-13 16:07:08.320 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: 'int' object is not subscriptable
+2025-07-13 16:07:08.320 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: 'int' object is not subscriptable
+2025-07-13 16:07:08.320 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 16:07:08.320 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 16:07:13.325 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 16:11:42.020 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 16:11:42.065 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 16:12:02.578 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: 'int' object is not subscriptable
+2025-07-13 16:12:02.578 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: 'int' object is not subscriptable
+2025-07-13 16:12:02.578 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: 'int' object is not subscriptable
+2025-07-13 16:12:02.579 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: 'int' object is not subscriptable
+2025-07-13 16:12:02.579 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 16:12:02.579 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 16:12:07.584 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 16:19:10.874 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 16:19:10.919 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 16:23:09.519 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 16:23:09.525 | INFO     | maas.ext.maas.scripts.optimizer_utils.graph_utils:load_graph_maas:31 - Error loading graph: cannot import name 'EarlyStop' from 'maas.ext.maas.scripts.optimized.MATH.train.template.operator' (/home/sujinwei/grpo_train_flow/MaAS/maas/ext/maas/scripts/optimized/MATH/train/template/operator.py)
+2025-07-13 16:23:09.525 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: cannot import name 'EarlyStop' from 'maas.ext.maas.scripts.optimized.MATH.train.template.operator' (/home/sujinwei/grpo_train_flow/MaAS/maas/ext/maas/scripts/optimized/MATH/train/template/operator.py). Retrying... (Attempt 1/1)
+2025-07-13 16:23:09.525 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 16:23:14.530 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 16:23:49.094 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-13 16:23:49.132 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 16:24:06.594 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 1.280(s), this was the 1st time calling it.
+2025-07-13 16:24:08.031 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 2.717(s), this was the 2nd time calling it.
+2025-07-13 16:24:09.101 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 1.277(s), this was the 1st time calling it.
+2025-07-13 16:24:10.161 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 4.848(s), this was the 3rd time calling it.
+2025-07-13 16:24:11.049 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 3.225(s), this was the 2nd time calling it.
+2025-07-13 16:24:11.641 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 6.328(s), this was the 4th time calling it.
+2025-07-13 16:24:12.663 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 4.839(s), this was the 3rd time calling it.
+2025-07-13 16:24:13.836 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 8.523(s), this was the 5th time calling it.
+2025-07-13 16:24:15.281 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 1.358(s), this was the 1st time calling it.
+2025-07-13 16:24:15.993 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 1.356(s), this was the 1st time calling it.
+2025-07-13 16:24:17.132 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 3.209(s), this was the 2nd time calling it.
+2025-07-13 16:24:17.653 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 9.829(s), this was the 4th time calling it.
+2025-07-13 16:24:18.153 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 3.516(s), this was the 2nd time calling it.
+2025-07-13 16:24:19.736 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 5.814(s), this was the 3rd time calling it.
+2025-07-13 16:24:20.155 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 12.331(s), this was the 5th time calling it.
+2025-07-13 16:24:21.080 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 6.444(s), this was the 3rd time calling it.
+2025-07-13 16:24:21.964 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 14.140(s), this was the 6th time calling it.
+2025-07-13 16:24:21.964 | ERROR    | maas.utils.common:log_and_reraise:816 - Retry attempts exhausted. Last exception: Connection error.
+2025-07-13 16:24:21.964 | WARNING  | maas.utils.common:log_and_reraise:817 - 
+Recommend going to https://deepwisdom.feishu.cn/wiki/MsGnwQBjiif9c3koSJNcYaoSnu4#part-XdatdVlhEojeAfxaaEZcMV3ZniQ
+See FAQ 5.8
+
+2025-07-13 16:24:22.403 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 8.481(s), this was the 4th time calling it.
+2025-07-13 16:24:23.905 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 9.268(s), this was the 4th time calling it.
+2025-07-13 16:24:27.216 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 21.902(s), this was the 6th time calling it.
+2025-07-13 16:24:27.216 | ERROR    | maas.utils.common:log_and_reraise:816 - Retry attempts exhausted. Last exception: Connection error.
+2025-07-13 16:24:27.217 | WARNING  | maas.utils.common:log_and_reraise:817 - 
+Recommend going to https://deepwisdom.feishu.cn/wiki/MsGnwQBjiif9c3koSJNcYaoSnu4#part-XdatdVlhEojeAfxaaEZcMV3ZniQ
+See FAQ 5.8
+
+2025-07-13 16:24:28.696 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 14.059(s), this was the 5th time calling it.
+2025-07-13 16:24:28.900 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 14.978(s), this was the 5th time calling it.
+2025-07-13 16:24:37.211 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 23.289(s), this was the 6th time calling it.
+2025-07-13 16:24:37.212 | ERROR    | maas.utils.common:log_and_reraise:816 - Retry attempts exhausted. Last exception: Connection error.
+2025-07-13 16:24:37.212 | WARNING  | maas.utils.common:log_and_reraise:817 - 
+Recommend going to https://deepwisdom.feishu.cn/wiki/MsGnwQBjiif9c3koSJNcYaoSnu4#part-XdatdVlhEojeAfxaaEZcMV3ZniQ
+See FAQ 5.8
+
+2025-07-13 16:24:39.762 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 25.125(s), this was the 6th time calling it.
+2025-07-13 16:24:39.762 | ERROR    | maas.utils.common:log_and_reraise:816 - Retry attempts exhausted. Last exception: Connection error.
+2025-07-13 16:24:39.763 | WARNING  | maas.utils.common:log_and_reraise:817 - 
+Recommend going to https://deepwisdom.feishu.cn/wiki/MsGnwQBjiif9c3koSJNcYaoSnu4#part-XdatdVlhEojeAfxaaEZcMV3ZniQ
+See FAQ 5.8
+
+2025-07-13 16:25:16.340 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 1.332(s), this was the 1st time calling it.
+2025-07-13 16:25:18.351 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 3.343(s), this was the 2nd time calling it.
+2025-07-13 16:25:20.647 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 5.639(s), this was the 3rd time calling it.
+2025-07-13 16:25:22.457 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 7.449(s), this was the 4th time calling it.
+2025-07-13 16:25:24.608 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 9.600(s), this was the 5th time calling it.
+2025-07-13 16:25:34.281 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 19.273(s), this was the 6th time calling it.
+2025-07-13 16:25:34.281 | ERROR    | maas.utils.common:log_and_reraise:816 - Retry attempts exhausted. Last exception: Connection error.
+2025-07-13 16:25:34.281 | WARNING  | maas.utils.common:log_and_reraise:817 - 
+Recommend going to https://deepwisdom.feishu.cn/wiki/MsGnwQBjiif9c3koSJNcYaoSnu4#part-XdatdVlhEojeAfxaaEZcMV3ZniQ
+See FAQ 5.8
+
+2025-07-13 16:25:48.800 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 1.366(s), this was the 1st time calling it.
+2025-07-13 16:25:50.213 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 2.778(s), this was the 2nd time calling it.
+2025-07-13 16:25:52.060 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 4.625(s), this was the 3rd time calling it.
+2025-07-13 16:25:54.600 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 1.178(s), this was the 1st time calling it.
+2025-07-13 16:25:56.284 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 2.862(s), this was the 2nd time calling it.
+2025-07-13 16:25:56.422 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 8.987(s), this was the 4th time calling it.
+2025-07-13 16:25:58.361 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 4.939(s), this was the 3rd time calling it.
+2025-07-13 16:26:01.884 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 8.461(s), this was the 4th time calling it.
+2025-07-13 16:26:02.791 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 15.357(s), this was the 5th time calling it.
+2025-07-13 16:26:04.219 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 1.474(s), this was the 1st time calling it.
+2025-07-13 16:26:05.761 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 3.015(s), this was the 2nd time calling it.
+2025-07-13 16:26:08.084 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 14.661(s), this was the 5th time calling it.
+2025-07-13 16:26:08.435 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 5.690(s), this was the 3rd time calling it.
+2025-07-13 16:26:08.942 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 21.507(s), this was the 6th time calling it.
+2025-07-13 16:26:08.942 | ERROR    | maas.utils.common:log_and_reraise:816 - Retry attempts exhausted. Last exception: Connection error.
+2025-07-13 16:26:08.942 | WARNING  | maas.utils.common:log_and_reraise:817 - 
+Recommend going to https://deepwisdom.feishu.cn/wiki/MsGnwQBjiif9c3koSJNcYaoSnu4#part-XdatdVlhEojeAfxaaEZcMV3ZniQ
+See FAQ 5.8
+
+2025-07-13 16:26:10.982 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 16:26:11.797 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 9.051(s), this was the 4th time calling it.
+2025-07-13 16:26:13.295 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-07-13 16:26:16.826 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 14.080(s), this was the 5th time calling it.
+2025-07-13 16:26:21.050 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 27.628(s), this was the 6th time calling it.
+2025-07-13 16:26:21.050 | ERROR    | maas.utils.common:log_and_reraise:816 - Retry attempts exhausted. Last exception: Connection error.
+2025-07-13 16:26:21.050 | WARNING  | maas.utils.common:log_and_reraise:817 - 
+Recommend going to https://deepwisdom.feishu.cn/wiki/MsGnwQBjiif9c3koSJNcYaoSnu4#part-XdatdVlhEojeAfxaaEZcMV3ZniQ
+See FAQ 5.8
+
+2025-07-13 16:26:33.299 | WARNING  | tenacity.after:log_it:44 - Finished call to 'maas.provider.openai_api.OpenAILLM.acompletion_text' after 30.553(s), this was the 6th time calling it.
+2025-07-13 16:26:33.299 | ERROR    | maas.utils.common:log_and_reraise:816 - Retry attempts exhausted. Last exception: Connection error.
+2025-07-13 16:26:33.299 | WARNING  | maas.utils.common:log_and_reraise:817 - 
+Recommend going to https://deepwisdom.feishu.cn/wiki/MsGnwQBjiif9c3koSJNcYaoSnu4#part-XdatdVlhEojeAfxaaEZcMV3ZniQ
+See FAQ 5.8
+
+2025-07-13 16:26:51.326 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 16:26:58.792 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 16:26:58.793 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 16:26:58.793 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 16:27:03.797 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 16:31:53.185 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_9
+2025-07-13 16:31:53.222 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 16:32:48.340 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 16:32:48.562 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 16:33:01.675 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 16:33:01.676 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 16:33:37.409 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 16:33:53.660 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 16:33:53.660 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 16:33:54.451 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 16:33:54.451 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 16:33:54.676 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 16:34:11.816 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 16:34:41.089 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 16:34:41.090 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 16:35:12.348 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-07-13 16:35:12.359 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 16:35:12.359 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 16:35:17.364 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 16:44:34.581 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_9
+2025-07-13 16:44:34.631 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 16:48:09.147 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_9
+2025-07-13 16:48:09.185 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 16:49:07.205 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 16:49:07.429 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 16:49:09.417 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 16:49:09.418 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 16:51:44.048 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 16:51:44.049 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 16:51:59.154 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 16:52:17.952 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: 'SelfRefine'
+2025-07-13 16:53:08.702 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 16:53:08.703 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 16:53:08.703 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 16:53:13.708 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 16:54:46.424 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_9
+2025-07-13 16:54:46.461 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-13 16:55:21.141 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 16:55:21.384 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 16:55:30.907 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 16:55:30.907 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 16:55:40.214 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 16:55:40.214 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 16:55:42.076 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 16:55:42.076 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 16:55:58.322 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 16:56:46.960 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 16:57:26.277 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 16:57:45.160 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-07-13 16:57:45.162 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 16:57:45.162 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 16:57:50.167 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 17:07:43.633 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_9
+2025-07-13 17:07:43.670 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/2
+2025-07-13 17:14:10.780 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-07-13 17:14:10.781 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 17:14:10.781 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 17:14:15.787 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 19:06:22.227 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_9
+2025-07-13 19:06:22.265 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 19:28:42.413 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_9
+2025-07-13 19:28:42.450 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 19:30:49.871 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 19:31:36.492 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 19:31:36.492 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 19:31:41.497 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 20:06:10.168 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_9
+2025-07-13 20:06:10.204 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 20:08:13.706 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 20:08:13.706 | ERROR    | maas.ext.maas.benchmark.benchmark:sem_evaluate:140 - Error evaluating problem: local variable 'vae' referenced before assignment
+2025-07-13 20:10:14.641 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 20:10:14.641 | ERROR    | maas.ext.maas.benchmark.benchmark:sem_evaluate:140 - Error evaluating problem: local variable 'vae' referenced before assignment
+2025-07-13 20:10:14.642 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-13 20:10:14.642 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 20:10:19.647 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 20:11:13.414 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_9
+2025-07-13 20:11:13.455 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 20:13:50.518 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 20:15:17.487 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-07-13 20:15:17.511 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: 'z_difficulty'. Retrying... (Attempt 1/1)
+2025-07-13 20:15:17.511 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 20:15:22.517 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 20:15:58.797 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_9
+2025-07-13 20:15:58.845 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 20:17:15.571 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 20:17:15.812 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 1 RL Loss: 4.8844, VAE Loss: 0.0100, Total: 4.8844
+2025-07-13 20:19:32.191 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 20:19:32.210 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 2 RL Loss: 1.4197, VAE Loss: 0.0100, Total: 1.4197
+2025-07-13 20:20:23.172 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 20:20:23.183 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 3 RL Loss: 5.0417, VAE Loss: 0.0100, Total: 5.0417
+2025-07-13 20:20:23.227 | INFO     | maas.ext.maas.benchmark.benchmark:save_results_to_csv:86 - Results saved to maas/ext/maas/scripts/optimized/MATH/train/round_9/0.60000_20250713_202023.csv
+2025-07-13 20:20:23.227 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:258 - Average score on MATH dataset: 0.60000
+2025-07-13 20:20:23.413 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:264 - Saved controller parameters to maas/ext/maas/scripts/optimized/MATH/train/round_9/MATH_controller_sample1.pth
+2025-07-13 20:20:23.414 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:265 - Successfully Finish Training
+2025-07-13 20:20:23.415 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: 0.6
+2025-07-13 20:48:47.206 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_9
+2025-07-13 20:48:47.255 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 20:51:32.382 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-07-13 20:51:32.383 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 20:51:32.406 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: 'z_difficulty'. Retrying... (Attempt 1/1)
+2025-07-13 20:51:32.406 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 20:51:37.412 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 20:52:36.984 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_9
+2025-07-13 20:52:37.021 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 20:54:55.481 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 20:54:55.482 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 20:54:55.514 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: 'z_difficulty'. Retrying... (Attempt 1/1)
+2025-07-13 20:54:55.515 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 20:55:00.520 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 20:57:05.512 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_10
+2025-07-13 20:57:05.549 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 20:59:44.159 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 20:59:44.399 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 1 RL Loss: 4.8347, VAE Loss: 0.0100, Total: 4.8347
+2025-07-13 21:03:30.677 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 21:03:30.703 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 2 RL Loss: 1.4118, VAE Loss: 0.0100, Total: 1.4118
+2025-07-13 21:07:35.867 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-07-13 21:07:35.876 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 21:07:35.877 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: 'z_difficulty'. Retrying... (Attempt 1/1)
+2025-07-13 21:07:35.877 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 21:07:40.882 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 21:23:14.957 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_10
+2025-07-13 21:23:15.017 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 21:25:45.151 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 21:27:31.095 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-07-13 21:27:31.099 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 21:27:31.122 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: 'is_solved'. Retrying... (Attempt 1/1)
+2025-07-13 21:27:31.123 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 21:27:36.127 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 21:28:23.352 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_10
+2025-07-13 21:28:23.396 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 21:30:34.289 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 21:30:34.542 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 1 RL Loss: 4.1492, VAE Loss: 0.0100, Total: 4.1493
+2025-07-13 21:31:36.382 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 21:31:36.402 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 2 RL Loss: 2.3113, VAE Loss: 0.0100, Total: 2.3113
+2025-07-13 21:32:09.949 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 21:32:09.960 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 3 RL Loss: 4.9537, VAE Loss: 0.0100, Total: 4.9537
+2025-07-13 21:32:10.003 | INFO     | maas.ext.maas.benchmark.benchmark:save_results_to_csv:86 - Results saved to maas/ext/maas/scripts/optimized/MATH/train/round_10/0.60000_20250713_213209.csv
+2025-07-13 21:32:10.003 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:258 - Average score on MATH dataset: 0.60000
+2025-07-13 21:32:10.199 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:264 - Saved controller parameters to maas/ext/maas/scripts/optimized/MATH/train/round_10/MATH_controller_sample1.pth
+2025-07-13 21:32:10.199 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:265 - Successfully Finish Training
+2025-07-13 21:32:10.201 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: 0.6
+2025-07-13 21:39:08.224 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_10
+2025-07-13 21:39:08.275 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 21:41:16.910 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:41:17.480 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:41:24.946 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:41:24.947 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:41:25.781 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:41:25.781 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:43:12.837 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-07-13 21:43:12.847 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 21:43:13.099 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 1 RL Loss: 3.1877, VAE Loss: 0.0100, Total: 3.1877
+2025-07-13 21:44:32.463 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:44:32.464 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:44:42.888 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:44:42.888 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:45:25.697 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:45:25.697 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:45:26.232 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:45:26.233 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:45:29.224 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:45:29.224 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:45:40.743 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:45:40.744 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:45:53.023 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 21:45:59.484 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:45:59.484 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:46:04.474 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:46:04.475 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:46:13.878 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:46:13.878 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:46:16.642 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:46:16.643 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:47:07.626 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:47:07.626 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:47:51.330 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-07-13 21:47:51.332 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 21:47:51.344 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 2 RL Loss: 0.6024, VAE Loss: 0.0100, Total: 0.6024
+2025-07-13 21:48:08.512 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:48:08.513 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:49:20.965 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:49:20.966 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:50:47.248 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:50:47.248 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:50:56.760 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 21:50:56.760 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 21:50:58.465 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 21:50:58.478 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 3 RL Loss: 8.1229, VAE Loss: 0.0100, Total: 8.1229
+2025-07-13 21:50:58.515 | INFO     | maas.ext.maas.benchmark.benchmark:save_results_to_csv:86 - Results saved to maas/ext/maas/scripts/optimized/MATH/train/round_10/0.50000_20250713_215058.csv
+2025-07-13 21:50:58.515 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:258 - Average score on MATH dataset: 0.50000
+2025-07-13 21:50:58.767 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:264 - Saved controller parameters to maas/ext/maas/scripts/optimized/MATH/train/round_10/MATH_controller_sample1.pth
+2025-07-13 21:50:58.768 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:265 - Successfully Finish Training
+2025-07-13 21:50:58.770 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: 0.5
+2025-07-13 22:02:57.662 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/HumanEval/train/round_10
+2025-07-13 22:02:57.672 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: __init__() got an unexpected keyword argument 'llm_embeddings'. Retrying... (Attempt 1/1)
+2025-07-13 22:02:57.672 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-13 22:03:02.677 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-13 22:03:59.740 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/HumanEval/train/round_10
+2025-07-13 22:03:59.777 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 22:04:19.878 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: 'Workflow' object has no attribute 'llm_ins'
+2025-07-13 22:04:19.878 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: 'Workflow' object has no attribute 'llm_ins'
+2025-07-13 22:04:19.878 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: 'Workflow' object has no attribute 'llm_ins'
+2025-07-13 22:04:19.879 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: 'Workflow' object has no attribute 'llm_ins'
+2025-07-13 22:04:19.879 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:04:19.936 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:215 - Repetition 1: Batch 1 Loss does not require grad and was skipped.
+2025-07-13 22:05:11.008 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/HumanEval/train/round_10
+2025-07-13 22:05:11.045 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/1
+2025-07-13 22:05:19.540 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:05:19.787 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:05:22.855 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:05:22.855 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:05:23.474 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:05:23.474 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:05:27.096 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:05:27.096 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:05:27.619 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:05:27.619 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:05:29.590 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:05:29.591 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:05:31.785 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:05:31.786 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:05:31.798 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:05:32.406 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:05:43.385 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:05:43.385 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:05:45.883 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:06:00.618 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:06:00.618 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:06:05.753 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:06:05.754 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:06:11.029 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:06:11.029 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:06:52.415 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:06:52.416 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:06:52.429 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:06:52.429 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:06:52.499 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:215 - Repetition 1: Batch 1 Loss does not require grad and was skipped.
+2025-07-13 22:06:58.849 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:06:58.849 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:07:04.197 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:07:04.197 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:07:09.339 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:07:09.340 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:07:09.341 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:215 - Repetition 1: Batch 2 Loss does not require grad and was skipped.
+2025-07-13 22:07:09.353 | INFO     | maas.ext.maas.benchmark.benchmark:save_results_to_csv:86 - Results saved to maas/ext/maas/scripts/optimized/HumanEval/train/round_10/0.00000_20250713_220709.csv
+2025-07-13 22:07:09.353 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:258 - Average score on HumanEval dataset: 0.00000
+2025-07-13 22:07:09.541 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:264 - Saved controller parameters to maas/ext/maas/scripts/optimized/HumanEval/train/round_10/HumanEval_controller_sample1.pth
+2025-07-13 22:07:09.542 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:265 - Successfully Finish Training
+2025-07-13 22:07:09.543 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: 0.0
+2025-07-13 22:11:38.755 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/HumanEval/train/round_1
+2025-07-13 22:11:38.794 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/4
+2025-07-13 22:11:49.472 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:11:57.418 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:11:57.636 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:11:59.573 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:11:59.573 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:01.250 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:01.251 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:04.422 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:04.422 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:05.622 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:05.622 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:07.780 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:12:17.413 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:12:21.813 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:12:21.814 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:12:21.885 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:215 - Repetition 1: Batch 1 Loss does not require grad and was skipped.
+2025-07-13 22:12:25.361 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:25.361 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:26.508 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:12:29.680 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:29.680 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:29.682 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:12:34.848 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:34.849 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:38.060 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:12:40.253 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:12:40.255 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:12:40.256 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:215 - Repetition 1: Batch 2 Loss does not require grad and was skipped.
+2025-07-13 22:12:46.785 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:46.785 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:48.586 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:48.587 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:48.837 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:48.837 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:52.015 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:12:52.085 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:52.087 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:55.506 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:55.506 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:57.785 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:57.785 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:12:58.928 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:12:58.928 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:13:05.169 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:13:05.169 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:13:10.600 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:13:16.679 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:13:38.427 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:13:38.429 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:13:38.430 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:215 - Repetition 1: Batch 3 Loss does not require grad and was skipped.
+2025-07-13 22:13:41.437 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:13:41.437 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:13:46.155 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:13:46.156 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:13:46.161 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:13:54.347 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:13:54.348 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:14:12.717 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:14:15.354 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:14:15.354 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:14:15.407 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:14:50.668 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:14:50.668 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:14:55.417 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:14:55.418 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:14:55.419 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:215 - Repetition 1: Batch 4 Loss does not require grad and was skipped.
+2025-07-13 22:15:02.138 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:15:05.817 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:15:05.818 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:15:10.712 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:15:10.712 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:15:12.915 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:15:12.915 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:15:18.417 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:15:18.417 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:15:27.023 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:15:27.024 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:15:35.395 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:15:44.304 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:15:44.305 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:15:45.908 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:15:45.908 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:15:47.750 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:15:47.750 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:15:47.751 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:15:51.309 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:15:51.310 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:15:51.311 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:215 - Repetition 1: Batch 5 Loss does not require grad and was skipped.
+2025-07-13 22:16:00.287 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:16:00.287 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:16:00.309 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:16:00.687 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:16:05.403 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:16:05.404 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:16:11.687 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:16:17.372 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:16:17.373 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:16:17.373 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:215 - Repetition 1: Batch 6 Loss does not require grad and was skipped.
+2025-07-13 22:16:21.075 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:16:21.075 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:16:21.086 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:16:22.664 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:16:27.840 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:16:27.840 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:16:29.676 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:16:29.677 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:16:34.729 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:16:34.729 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:16:39.864 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:16:39.864 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:16:46.059 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:16:46.059 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:16:46.085 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:17:01.370 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:17:01.370 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:17:01.400 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:17:01.401 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:17:01.402 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:215 - Repetition 1: Batch 7 Loss does not require grad and was skipped.
+2025-07-13 22:17:07.111 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:17:07.111 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:17:07.131 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:17:21.965 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:17:21.966 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:17:24.603 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:17:24.603 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:17:32.751 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:17:36.322 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:17:36.322 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:17:47.066 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:17:47.066 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:17:47.134 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:17:52.050 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:17:52.051 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:17:57.583 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:17:57.583 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:17:57.679 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:17:57.680 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:17:57.680 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:215 - Repetition 1: Batch 8 Loss does not require grad and was skipped.
+2025-07-13 22:18:38.396 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:18:38.396 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:18:50.397 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: not enough values to unpack (expected 4, got 3)
+2025-07-13 22:18:50.398 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:18:50.399 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:215 - Repetition 1: Batch 9 Loss does not require grad and was skipped.
+2025-07-13 22:18:50.451 | INFO     | maas.ext.maas.benchmark.benchmark:save_results_to_csv:86 - Results saved to maas/ext/maas/scripts/optimized/HumanEval/train/round_1/0.00000_20250713_221850.csv
+2025-07-13 22:18:50.451 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:258 - Average score on HumanEval dataset: 0.00000
+2025-07-13 22:18:50.628 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:264 - Saved controller parameters to maas/ext/maas/scripts/optimized/HumanEval/train/round_1/HumanEval_controller_sample4.pth
+2025-07-13 22:18:50.628 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:265 - Successfully Finish Training
+2025-07-13 22:18:50.630 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: 0.0
+2025-07-13 22:21:11.834 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:117 - maas/ext/maas/scripts/optimized/MATH/train/round_11
+2025-07-13 22:21:11.916 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/4
+2025-07-13 22:21:32.565 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:21:32.792 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:23:18.949 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:23:18.949 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:23:25.616 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:23:25.616 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:24:16.780 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 22:24:16.782 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:24:17.025 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 1 RL Loss: 3.2894, VAE Loss: 0.0100, Total: 3.2894
+2025-07-13 22:24:40.131 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:24:40.131 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:24:55.443 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:24:55.443 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:26:49.734 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:26:49.735 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:26:54.177 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:26:54.177 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:29:02.109 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:29:02.131 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 2 RL Loss: 3.8411, VAE Loss: 0.0100, Total: 3.8411
+2025-07-13 22:30:10.677 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:30:10.677 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:31:08.436 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:31:08.458 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 3 RL Loss: 2.1570, VAE Loss: 0.0100, Total: 2.1570
+2025-07-13 22:31:31.362 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:31:31.366 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:31:39.074 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:31:39.075 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:33:12.814 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:33:12.838 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 4 RL Loss: 5.4052, VAE Loss: 0.0101, Total: 5.4052
+2025-07-13 22:33:43.056 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:33:43.056 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:36:14.933 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:36:14.953 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 5 RL Loss: 4.7234, VAE Loss: 0.0101, Total: 4.7234
+2025-07-13 22:38:22.880 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:38:22.899 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 6 RL Loss: 3.6805, VAE Loss: 0.0101, Total: 3.6805
+2025-07-13 22:40:01.204 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:40:01.205 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:41:48.770 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:41:48.792 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 7 RL Loss: 5.5907, VAE Loss: 0.0101, Total: 5.5907
+2025-07-13 22:44:59.065 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:44:59.092 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 8 RL Loss: 4.9393, VAE Loss: 0.0102, Total: 4.9393
+2025-07-13 22:46:16.761 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:46:16.762 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:48:56.107 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:48:56.107 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 22:48:56.127 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:48:56.161 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 9 RL Loss: 3.8520, VAE Loss: 0.0102, Total: 3.8520
+2025-07-13 22:53:51.994 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 22:53:52.013 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 10 RL Loss: 5.0063, VAE Loss: 0.0103, Total: 5.0063
+2025-07-13 22:54:41.959 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 22:54:41.960 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:01:46.644 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:01:46.666 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 11 RL Loss: 2.9159, VAE Loss: 0.0103, Total: 2.9159
+2025-07-13 23:04:02.994 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:04:03.013 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 12 RL Loss: 1.5019, VAE Loss: 0.0105, Total: 1.5019
+2025-07-13 23:06:18.763 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:06:18.764 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:06:21.443 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:06:21.459 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 13 RL Loss: 1.5310, VAE Loss: 0.0107, Total: 1.5310
+2025-07-13 23:06:56.720 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:06:56.752 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 14 RL Loss: 2.1204, VAE Loss: 0.0106, Total: 2.1204
+2025-07-13 23:07:49.258 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:07:49.281 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 15 RL Loss: 2.7552, VAE Loss: 0.0106, Total: 2.7552
+2025-07-13 23:08:14.083 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:08:14.084 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:14:23.540 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-13 23:14:23.541 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:14:23.560 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 16 RL Loss: 1.0186, VAE Loss: 0.0105, Total: 1.0186
+2025-07-13 23:25:07.448 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:25:07.471 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 17 RL Loss: 1.5224, VAE Loss: 0.0111, Total: 1.5224
+2025-07-13 23:26:07.687 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:26:07.688 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:27:09.138 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:27:09.157 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 18 RL Loss: 1.0585, VAE Loss: 0.0102, Total: 1.0585
+2025-07-13 23:27:32.766 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:27:32.767 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:27:57.530 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:27:57.558 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 19 RL Loss: 0.4299, VAE Loss: 0.0104, Total: 0.4299
+2025-07-13 23:28:34.862 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:28:34.862 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:29:19.826 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:29:19.864 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 20 RL Loss: 1.6397, VAE Loss: 0.0106, Total: 1.6397
+2025-07-13 23:30:09.370 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:30:09.371 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:30:54.408 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:30:54.431 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 21 RL Loss: 2.2225, VAE Loss: 0.0108, Total: 2.2225
+2025-07-13 23:32:14.014 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:32:14.017 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:32:33.212 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:32:33.234 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 22 RL Loss: 0.3818, VAE Loss: 0.0104, Total: 0.3818
+2025-07-13 23:33:36.432 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:33:36.462 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 23 RL Loss: 1.4865, VAE Loss: 0.0104, Total: 1.4866
+2025-07-13 23:34:08.038 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:34:08.039 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:34:32.775 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:34:32.808 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 24 RL Loss: 2.3912, VAE Loss: 0.0105, Total: 2.3912
+2025-07-13 23:35:17.431 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:35:17.432 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:36:25.218 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:36:25.218 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:36:27.199 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:36:27.232 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 25 RL Loss: 1.9905, VAE Loss: 0.0112, Total: 1.9905
+2025-07-13 23:37:23.036 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:37:23.055 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 26 RL Loss: 0.4111, VAE Loss: 0.0115, Total: 0.4111
+2025-07-13 23:37:53.781 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:37:53.781 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:38:19.277 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:38:19.277 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:38:47.125 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:38:47.143 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 27 RL Loss: 2.4015, VAE Loss: 0.0116, Total: 2.4015
+2025-07-13 23:40:23.052 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:40:23.084 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 28 RL Loss: 1.8635, VAE Loss: 0.0114, Total: 1.8635
+2025-07-13 23:41:55.645 | INFO     | maas.utils.token_counter:count_input_tokens:396 - Warning: model qwen2.5:7b not found in tiktoken. Using cl100k_base encoding.
+2025-07-13 23:41:55.646 | WARNING  | maas.provider.openai_api:_calc_usage:268 - usage calculation failed: num_tokens_from_messages() is not implemented for model qwen2.5:7b. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2025-07-13 23:42:15.383 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:42:15.413 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 29 RL Loss: -0.0029, VAE Loss: 0.0118, Total: -0.0029
+2025-07-13 23:45:03.377 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-13 23:45:03.391 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:210 - Repetition 1: Batch 30 RL Loss: 0.5456, VAE Loss: 0.0118, Total: 0.5456
+2025-07-13 23:45:03.852 | INFO     | maas.ext.maas.benchmark.benchmark:save_results_to_csv:86 - Results saved to maas/ext/maas/scripts/optimized/MATH/train/round_11/0.53782_20250713_234503.csv
+2025-07-13 23:45:03.853 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:258 - Average score on MATH dataset: 0.53782
+2025-07-13 23:45:04.050 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:264 - Saved controller parameters to maas/ext/maas/scripts/optimized/MATH/train/round_11/MATH_controller_sample4.pth
+2025-07-13 23:45:04.051 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:265 - Successfully Finish Training
+2025-07-13 23:45:04.068 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: 0.5378151260504201

@@ -1,0 +1,16 @@
+[
+    {
+        "question": "A team of 4 painters worked on a mansion for 3/8ths of a day every day for 3 weeks. How many hours of work did each painter put in?",
+        "right_answer": 189.0,
+        "model_output": "15.75",
+        "extracted_output": 15.75,
+        "extract_answer_code": "None"
+    },
+    {
+        "question": "A team of 4 painters worked on a mansion for 3/8ths of a day every day for 3 weeks. How many hours of work did each painter put in?",
+        "right_answer": 189.0,
+        "model_output": "47.25",
+        "extracted_output": 47.25,
+        "extract_answer_code": "None"
+    }
+]

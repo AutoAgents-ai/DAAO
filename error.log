@@ -1,0 +1,1598 @@
+2025-06-29 00:44:07 - Error: .
+ Solution: def can_arrange(arr):
+    """Create a function which returns the largest index of an element which
+    is not greater than or equal to the element immediately preceding it. If
+    no such element exists then return -1. The given array will not contain
+    duplicate values.
+
+    Examples:
+    can_arrange([1,2,4,3,5]) = 3
+    can_arrange([1,2,3]) = -1
+    """
+    # Start from the second element and go to the end of the array
+    for i in range(1, len(arr)):
+        # Check if the current element is less than the previous one
+        if arr[i] < arr[i - 1]:
+            # Return the current index if the condition is met
+            return i
+    
+    # If no such index is found, return -1
+    return -1.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate([1,2,4,3,5])==3
+    assert candidate([1,2,4,5])==-1
+    assert candidate([1,4,2,5,6,7,8,9,10])==2
+    assert candidate([4,8,5,7,3])==4
+
+    # Check some edge cases that are easy to work out by hand.
+    assert candidate([])==-1
+
+
+2025-06-29 00:45:26 - Error: .
+ Solution: import re
+def words_string(s):
+    """
+    Splits a string of words separated by commas or spaces into a list of words.
+    
+    Args:
+    s (str): The input string containing words separated by commas or spaces.
+    
+    Returns:
+    list: A list of words extracted from the input string.
+    
+    Examples:
+    >>> words_string("Hi, my name is John")
+    ['Hi', 'my', 'name', 'is', 'John']
+    >>> words_string("One, two, three, four, five, six")
+    ['One', 'two', 'three', 'four', 'five', 'six']
+    """
+    # Use regex to split the string by commas and spaces
+    words = re.split(r'[,\s]+', s.strip())
+    return words.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate("Hi, my name is John") == ["Hi", "my", "name", "is", "John"]
+    assert candidate("One, two, three, four, five, six") == ["One", "two", "three", "four", "five", "six"]
+    assert candidate("Hi, my name") == ["Hi", "my", "name"]
+    assert candidate("One,, two, three, four, five, six,") == ["One", "two", "three", "four", "five", "six"]
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate("") == []
+    assert candidate("ahmed     , gamal") == ["ahmed", "gamal"]
+
+
+2025-06-29 00:45:53 - Error: .
+ Solution: def sum_of_digits(n):
+    """
+    Calculate the sum of the digits of an integer n.
+    This function handles both positive and negative integers.
+    """
+    # Use absolute value to ignore the sign for digit sum calculation
+    return sum(int(digit) for digit in str(abs(n)))
+def order_by_points(nums):
+    """
+    Sort the given list of integers in ascending order according to the sum of their digits.
+    If two numbers have the same sum of digits, they are ordered based on their index in the original list.
+    
+    Args:
+    nums (list of int): The list of integers to sort.
+    
+    Returns:
+    list of int: The sorted list of integers.
+    
+    Examples:
+    >>> order_by_points([1, 11, -1, -11, -12])
+    [-1, -11, 1, -12, 11]
+    >>> order_by_points([])
+    []
+    """
+    # Use the sorted function with a custom key
+    # The key is a tuple: (sum of digits, original index)
+    return sorted(nums, key=lambda x: (sum_of_digits(x), nums.index(x))).
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]
+    assert candidate([1234,423,463,145,2,423,423,53,6,37,3457,3,56,0,46]) == [0, 2, 3, 6, 53, 423, 423, 423, 1234, 145, 37, 46, 56, 463, 3457]
+    assert candidate([]) == []
+    assert candidate([1, -11, -32, 43, 54, -98, 2, -3]) == [-3, -32, -98, -11, 1, 2, 43, 54]
+    assert candidate([1,2,3,4,5,6,7,8,9,10,11]) == [1, 10, 2, 11, 3, 4, 5, 6, 7, 8, 9]
+    assert candidate([0,6,6,-76,-21,23,4]) == [-76, -21, 0, 4, 23, 6, 6]
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+
+
+2025-06-29 00:47:10 - Error: .
+ Solution: def is_nested(string):
+    depth = 0
+    found_nested = False
+    
+    for char in string:
+        if char == '[':
+            depth += 1
+            if depth > 1:
+                found_nested = True
+        elif char == ']':
+            depth -= 1
+            if depth < 0:
+                return False
+    
+    # Check if we have found a nested structure and if the brackets are balanced
+    return found_nested or (depth > 0 and found_nested) and depth == 0.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate('[[]]') == True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate('[]]]]]]][[[[[]') == False
+    assert candidate('[][]') == False
+    assert candidate(('[]')) == False
+    assert candidate('[[[[]]]]') == True
+    assert candidate('[]]]]]]]]]]') == False
+    assert candidate('[][][[]]') == True
+    assert candidate('[[]') == False
+    assert candidate('[]]') == False
+    assert candidate('[[]][[') == True
+    assert candidate('[[][]]') == True
+
+    # Check some edge cases that are easy to work out by hand.
+    assert candidate('') == False, "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate('[[[[[[[[') == False
+    assert candidate(']]]]]]]]') == False
+
+
+2025-06-29 00:47:56 - Error: .
+ Solution: from itertools import combinations
+from sympy import primerange
+def is_multiply_prime(a):
+    """Check if the given number is the product of exactly three prime numbers."""
+    if a < 1:
+        return False
+    
+    # Generate a list of all prime numbers less than 100
+    primes = list(primerange(1, 100))
+    
+    # Check all combinations of three primes
+    for combo in combinations(primes, 3):
+        if combo[0] * combo[1] * combo[2] == a:
+            return True
+            
+    return False.
+ Test: def check(candidate):
+
+    assert candidate(5) == False
+    assert candidate(30) == True
+    assert candidate(8) == True
+    assert candidate(10) == False
+    assert candidate(125) == True
+    assert candidate(3 * 5 * 7) == True
+    assert candidate(3 * 6 * 7) == False
+    assert candidate(9 * 9 * 9) == False
+    assert candidate(11 * 9 * 9) == False
+    assert candidate(11 * 13 * 7) == True
+
+
+2025-06-29 00:49:58 - Error: .
+ Solution: def check_if_last_char_is_a_letter(txt):
+    '''
+    Create a function that returns True if the last character
+    of a given string is an alphabetical character and is not
+    a part of a word, and False otherwise.
+    Note: "word" is a group of characters separated by space.
+
+    Examples:
+    check_if_last_char_is_a_letter("apple pie") ➞ False
+    check_if_last_char_is_a_letter("apple pi e") ➞ True
+    check_if_last_char_is_a_letter("apple pi e ") ➞ False
+    check_if_last_char_is_a_letter("") ➞ False 
+    '''
+    
+    # Strip any trailing whitespace from the string
+    stripped_txt = txt.rstrip()
+    
+    # Check if the stripped string is empty
+    if not stripped_txt:
+        return False
+    
+    # Get the last character of the stripped string
+    last_char = stripped_txt[-1]
+    
+    # Check if the last character is an alphabetical character
+    if last_char.isalpha():
+        # Check if the last character is not part of a word
+        # This means it should not be followed by any non-space character
+        return True
+    else:
+        return False.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate("apple") == False
+    assert candidate("apple pi e") == True
+    assert candidate("eeeee") == False
+    assert candidate("A") == True
+    assert candidate("Pumpkin pie ") == False
+    assert candidate("Pumpkin pie 1") == False
+    assert candidate("") == False
+    assert candidate("eeeee e ") == False
+    assert candidate("apple pie") == False
+    assert candidate("apple pi e ") == False
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True
+
+
+2025-06-29 00:51:08 - Error: Error.
+ Solution: def max_fill(grid, capacity):
+    total_water = 0
+    
+    # Count the total number of 1s in the grid
+    for row in grid:
+        total_water += sum(row)
+    
+    # If there's no water, no need to lower the buckets
+    if total_water == 0:
+        return 0
+    
+    # Calculate the number of times we need to lower the buckets
+    # We use math.ceil to round up the division
+    import math
+    return math.ceil(total_water / capacity).
+ Test: def check(candidate):
+
+
+    # Check some simple cases
+    assert True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate([[0,0,1,0], [0,1,0,0], [1,1,1,1]], 1) == 6, "Error"
+    assert candidate([[0,0,1,1], [0,0,0,0], [1,1,1,1], [0,1,1,1]], 2) == 5, "Error"
+    assert candidate([[0,0,0], [0,0,0]], 5) == 0, "Error"
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate([[1,1,1,1], [1,1,1,1]], 2) == 4, "Error"
+    assert candidate([[1,1,1,1], [1,1,1,1]], 9) == 2, "Error"
+
+
+2025-06-29 00:51:24 - Error: .
+ Solution: def can_arrange(arr):
+    """Create a function which returns the largest index of an element which
+    is not greater than or equal to the element immediately preceding it. If
+    no such element exists then return -1. The given array will not contain
+    duplicate values.
+
+    Examples:
+    can_arrange([1,2,4,3,5]) = 3
+    can_arrange([1,2,3]) = -1
+    """
+    # Start from the second element and go to the end of the array
+    for i in range(1, len(arr)):
+        # Check if the current element is less than the previous one
+        if arr[i] < arr[i - 1]:
+            # Return the current index if the condition is met
+            return i
+    # If no such index is found, return -1
+    return -1.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate([1,2,4,3,5])==3
+    assert candidate([1,2,4,5])==-1
+    assert candidate([1,4,2,5,6,7,8,9,10])==2
+    assert candidate([4,8,5,7,3])==4
+
+    # Check some edge cases that are easy to work out by hand.
+    assert candidate([])==-1
+
+
+2025-06-29 00:52:53 - Error: .
+ Solution: import re
+def words_string(s):
+    """
+    You will be given a string of words separated by commas or spaces. Your task is
+    to split the string into words and return an array of the words.
+    
+    For example:
+    words_string("Hi, my name is John") == ["Hi", "my", "name", "is", "John"]
+    words_string("One, two, three, four, five, six") == ["One", "two", "three", "four", "five", "six"]
+    """
+    # Use regex to split the string by commas or whitespace
+    words = re.split(r'[,\s]+', s.strip())
+    return words.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate("Hi, my name is John") == ["Hi", "my", "name", "is", "John"]
+    assert candidate("One, two, three, four, five, six") == ["One", "two", "three", "four", "five", "six"]
+    assert candidate("Hi, my name") == ["Hi", "my", "name"]
+    assert candidate("One,, two, three, four, five, six,") == ["One", "two", "three", "four", "five", "six"]
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate("") == []
+    assert candidate("ahmed     , gamal") == ["ahmed", "gamal"]
+
+
+2025-06-29 00:52:58 - Error: .
+ Solution: def sum_of_digits(n):
+    """
+    Calculate the sum of the digits of an integer n.
+    This function handles both positive and negative integers.
+    """
+    # Take the absolute value of n to ignore the sign
+    n = abs(n)
+    return sum(int(digit) for digit in str(n))
+def order_by_points(nums):
+    """
+    Sort the given list of integers in ascending order according to the sum of their digits.
+    If two numbers have the same sum of digits, they are ordered based on their index in the original list.
+    
+    Args:
+    nums (list of int): The list of integers to sort.
+    
+    Returns:
+    list of int: The sorted list of integers.
+    
+    Examples:
+    >>> order_by_points([1, 11, -1, -11, -12])
+    [-1, -11, 1, -12, 11]
+    >>> order_by_points([])
+    []
+    """
+    # Use the sorted function with a custom key
+    # The key is a tuple: (sum of digits, original index)
+    return sorted(nums, key=lambda x: (sum_of_digits(x), nums.index(x))).
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]
+    assert candidate([1234,423,463,145,2,423,423,53,6,37,3457,3,56,0,46]) == [0, 2, 3, 6, 53, 423, 423, 423, 1234, 145, 37, 46, 56, 463, 3457]
+    assert candidate([]) == []
+    assert candidate([1, -11, -32, 43, 54, -98, 2, -3]) == [-3, -32, -98, -11, 1, 2, 43, 54]
+    assert candidate([1,2,3,4,5,6,7,8,9,10,11]) == [1, 10, 2, 11, 3, 4, 5, 6, 7, 8, 9]
+    assert candidate([0,6,6,-76,-21,23,4]) == [-76, -21, 0, 4, 23, 6, 6]
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+
+
+2025-06-29 00:55:48 - Error: .
+ Solution: def is_nested(string):
+    '''
+    Determine if the input string of square brackets contains a valid subsequence
+    where at least one bracket is nested.
+
+    Parameters:
+    string (str): A string containing only '[' and ']'.
+
+    Returns:
+    bool: True if there is a valid nested subsequence, False otherwise.
+    '''
+    
+    # Initialize counters for open brackets and the current depth of nesting
+    open_count = 0
+    max_depth = 0
+    
+    for char in string:
+        if char == '[':
+            open_count += 1
+            max_depth += 1  # Increase depth for each opening bracket
+        elif char == ']':
+            if open_count == 0:
+                # More closing brackets than opening brackets
+                return False
+            open_count -= 1
+            max_depth -= 1  # Decrease depth for each closing bracket
+        
+        # If we have more than one level of nesting, we can return True early
+        if max_depth > 1:
+            return True
+    
+    # After processing all characters, check if we have balanced brackets
+    # and if we have at least one level of nesting
+    return open_count == 0 and max_depth > 0.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate('[[]]') == True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate('[]]]]]]][[[[[]') == False
+    assert candidate('[][]') == False
+    assert candidate(('[]')) == False
+    assert candidate('[[[[]]]]') == True
+    assert candidate('[]]]]]]]]]]') == False
+    assert candidate('[][][[]]') == True
+    assert candidate('[[]') == False
+    assert candidate('[]]') == False
+    assert candidate('[[]][[') == True
+    assert candidate('[[][]]') == True
+
+    # Check some edge cases that are easy to work out by hand.
+    assert candidate('') == False, "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate('[[[[[[[[') == False
+    assert candidate(']]]]]]]]') == False
+
+
+2025-06-29 00:56:11 - Error: .
+ Solution: from itertools import product
+from sympy import primerange
+def is_multiply_prime(a):
+    """Check if the given number is the product of exactly three prime numbers."""
+    if a < 30:  # The smallest product of three distinct primes is 30
+        return False
+    
+    # Generate a list of all prime numbers less than 100
+    primes = list(primerange(1, 100))
+    
+    # Check all products of three primes (allowing repetition)
+    for combo in product(primes, repeat=3):
+        if combo[0] * combo[1] * combo[2] == a:
+            return True
+            
+    return False.
+ Test: def check(candidate):
+
+    assert candidate(5) == False
+    assert candidate(30) == True
+    assert candidate(8) == True
+    assert candidate(10) == False
+    assert candidate(125) == True
+    assert candidate(3 * 5 * 7) == True
+    assert candidate(3 * 6 * 7) == False
+    assert candidate(9 * 9 * 9) == False
+    assert candidate(11 * 9 * 9) == False
+    assert candidate(11 * 13 * 7) == True
+
+
+2025-06-29 00:58:35 - Error: .
+ Solution: def check_if_last_char_is_a_letter(txt):
+    '''
+    Create a function that returns True if the last character
+    of a given string is an alphabetical character and is not
+    a part of a word, and False otherwise.
+    Note: "word" is a group of characters separated by space.
+
+    Examples:
+    check_if_last_char_is_a_letter("apple pie") ➞ False
+    check_if_last_char_is_a_letter("apple pi e") ➞ True
+    check_if_last_char_is_a_letter("apple pi e ") ➞ False
+    check_if_last_char_is_a_letter("") ➞ False 
+    '''
+    
+    # Strip the string of leading and trailing whitespace
+    trimmed_txt = txt.rstrip()
+    
+    # Check if the trimmed string is empty
+    if not trimmed_txt:
+        return False
+    
+    # Get the last character of the trimmed string
+    last_char = trimmed_txt[-1]
+    
+    # Check if the last character is an alphabetical character
+    if last_char.isalpha():
+        # Check if the last character is followed by a space or is the only character
+        if len(trimmed_txt) == 1 or trimmed_txt[-2] == ' ':
+            return True
+    
+    return False.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate("apple") == False
+    assert candidate("apple pi e") == True
+    assert candidate("eeeee") == False
+    assert candidate("A") == True
+    assert candidate("Pumpkin pie ") == False
+    assert candidate("Pumpkin pie 1") == False
+    assert candidate("") == False
+    assert candidate("eeeee e ") == False
+    assert candidate("apple pie") == False
+    assert candidate("apple pi e ") == False
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True
+
+
+2025-06-29 00:59:16 - Error: .
+ Solution: def can_arrange(arr):
+    """Create a function which returns the largest index of an element which
+    is not greater than or equal to the element immediately preceding it. If
+    no such element exists then return -1. The given array will not contain
+    duplicate values.
+
+    Examples:
+    can_arrange([1,2,4,3,5]) = 3
+    can_arrange([1,2,3]) = -1
+    """
+    # Start from the second element and go to the end of the array
+    for i in range(1, len(arr)):
+        # Check if the current element is less than the previous one
+        if arr[i] < arr[i - 1]:
+            # Return the current index if the condition is met
+            return i
+    
+    # If no such index is found, return -1
+    return -1.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate([1,2,4,3,5])==3
+    assert candidate([1,2,4,5])==-1
+    assert candidate([1,4,2,5,6,7,8,9,10])==2
+    assert candidate([4,8,5,7,3])==4
+
+    # Check some edge cases that are easy to work out by hand.
+    assert candidate([])==-1
+
+
+2025-06-29 01:01:28 - Error: .
+ Solution: def sum_of_digits(n):
+    """
+    Calculate the sum of the digits of an integer n.
+    This function handles both positive and negative integers.
+    """
+    # Use absolute value to ignore the sign for digit sum calculation
+    return sum(int(digit) for digit in str(abs(n)))
+def order_by_points(nums):
+    """
+    Sort the given list of integers in ascending order according to the sum of their digits.
+    If two numbers have the same sum of digits, they are ordered based on their index in the original list.
+    
+    Args:
+    nums (list of int): The list of integers to sort.
+    
+    Returns:
+    list of int: The sorted list of integers.
+    
+    Examples:
+    >>> order_by_points([1, 11, -1, -11, -12])
+    [-1, -11, 1, -12, 11]
+    >>> order_by_points([])
+    []
+    """
+    # Use the sorted function with a custom key
+    # The key is a tuple: (sum of digits, original index)
+    return sorted(nums, key=lambda x: (sum_of_digits(x), nums.index(x))).
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]
+    assert candidate([1234,423,463,145,2,423,423,53,6,37,3457,3,56,0,46]) == [0, 2, 3, 6, 53, 423, 423, 423, 1234, 145, 37, 46, 56, 463, 3457]
+    assert candidate([]) == []
+    assert candidate([1, -11, -32, 43, 54, -98, 2, -3]) == [-3, -32, -98, -11, 1, 2, 43, 54]
+    assert candidate([1,2,3,4,5,6,7,8,9,10,11]) == [1, 10, 2, 11, 3, 4, 5, 6, 7, 8, 9]
+    assert candidate([0,6,6,-76,-21,23,4]) == [-76, -21, 0, 4, 23, 6, 6]
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+
+
+2025-06-29 01:03:08 - Error: .
+ Solution: def is_nested(string):
+    '''
+    Determine if the input string of square brackets contains a valid subsequence
+    where at least one bracket is nested.
+
+    Parameters:
+    string (str): A string containing only '[' and ']'.
+
+    Returns:
+    bool: True if there is a valid nested subsequence, False otherwise.
+    '''
+    
+    # Initialize counters for open brackets and depth of nesting
+    open_count = 0
+    nested = False
+    
+    for char in string:
+        if char == '[':
+            open_count += 1
+            # If we have more than one open bracket, we have a nested structure
+            if open_count > 1:
+                nested = True
+        elif char == ']':
+            # If we encounter a closing bracket without a matching open bracket
+            if open_count == 0:
+                return False
+            open_count -= 1
+    
+    # After processing all characters, check if we have a valid sequence
+    # and if we have found any nested structure
+    return open_count == 0 and nested.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate('[[]]') == True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate('[]]]]]]][[[[[]') == False
+    assert candidate('[][]') == False
+    assert candidate(('[]')) == False
+    assert candidate('[[[[]]]]') == True
+    assert candidate('[]]]]]]]]]]') == False
+    assert candidate('[][][[]]') == True
+    assert candidate('[[]') == False
+    assert candidate('[]]') == False
+    assert candidate('[[]][[') == True
+    assert candidate('[[][]]') == True
+
+    # Check some edge cases that are easy to work out by hand.
+    assert candidate('') == False, "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate('[[[[[[[[') == False
+    assert candidate(']]]]]]]]') == False
+
+
+2025-06-29 01:03:58 - Error: .
+ Solution: from itertools import combinations
+from sympy import primerange
+def is_multiply_prime(a):
+    """Check if the given number is the product of 3 prime numbers."""
+    if a < 1:
+        return False
+    
+    # Generate a list of all prime numbers less than 100
+    primes = list(primerange(1, 100))
+    
+    # Check all combinations of 3 primes
+    for combo in combinations(primes, 3):
+        if combo[0] * combo[1] * combo[2] == a:
+            return True
+            
+    return False.
+ Test: def check(candidate):
+
+    assert candidate(5) == False
+    assert candidate(30) == True
+    assert candidate(8) == True
+    assert candidate(10) == False
+    assert candidate(125) == True
+    assert candidate(3 * 5 * 7) == True
+    assert candidate(3 * 6 * 7) == False
+    assert candidate(9 * 9 * 9) == False
+    assert candidate(11 * 9 * 9) == False
+    assert candidate(11 * 13 * 7) == True
+
+
+2025-06-29 01:05:47 - Error: .
+ Solution: def check_if_last_char_is_a_letter(txt):
+    '''
+    Create a function that returns True if the last character
+    of a given string is an alphabetical character and is not
+    a part of a word, and False otherwise.
+    Note: "word" is a group of characters separated by space.
+
+    Examples:
+    check_if_last_char_is_a_letter("apple pie") ➞ False
+    check_if_last_char_is_a_letter("apple pi e") ➞ True
+    check_if_last_char_is_a_letter("apple pi e ") ➞ False
+    check_if_last_char_is_a_letter("") ➞ False 
+    '''
+    
+    # Strip any trailing whitespace from the string
+    txt = txt.rstrip()
+    
+    # Check if the string is empty after stripping
+    if not txt:
+        return False
+    
+    # Get the last character of the string
+    last_char = txt[-1]
+    
+    # Check if the last character is an alphabetical character
+    if last_char.isalpha():
+        # If it's a letter, we need to check if it's part of a word
+        # A letter is not part of a word if it's the only character
+        # or if the character before it is a space
+        if len(txt) == 1 or txt[-2] == ' ':
+            return True
+        else:
+            return False
+    else:
+        # If the last character is not a letter, return False
+        return False.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate("apple") == False
+    assert candidate("apple pi e") == True
+    assert candidate("eeeee") == False
+    assert candidate("A") == True
+    assert candidate("Pumpkin pie ") == False
+    assert candidate("Pumpkin pie 1") == False
+    assert candidate("") == False
+    assert candidate("eeeee e ") == False
+    assert candidate("apple pie") == False
+    assert candidate("apple pi e ") == False
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True
+
+
+2025-06-29 01:09:05 - Error: .
+ Solution: def sum_of_digits(n):
+    """
+    Calculate the sum of the digits of an integer n.
+    This function handles both positive and negative integers.
+    """
+    # Use absolute value to ignore the sign for digit sum calculation
+    return sum(int(digit) for digit in str(abs(n)))
+def order_by_points(nums):
+    """
+    Sort the given list of integers in ascending order according to the sum of their digits.
+    If two numbers have the same sum of digits, they are ordered based on their index in the original list.
+    
+    Args:
+    nums (list of int): The list of integers to sort.
+    
+    Returns:
+    list of int: The sorted list of integers.
+    
+    Examples:
+    >>> order_by_points([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]
+    >>> order_by_points([]) == []
+    """
+    # Use the sorted function with a custom key
+    # The key is a tuple: (sum of digits, original index)
+    return sorted(nums, key=lambda x: (sum_of_digits(x), nums.index(x))).
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]
+    assert candidate([1234,423,463,145,2,423,423,53,6,37,3457,3,56,0,46]) == [0, 2, 3, 6, 53, 423, 423, 423, 1234, 145, 37, 46, 56, 463, 3457]
+    assert candidate([]) == []
+    assert candidate([1, -11, -32, 43, 54, -98, 2, -3]) == [-3, -32, -98, -11, 1, 2, 43, 54]
+    assert candidate([1,2,3,4,5,6,7,8,9,10,11]) == [1, 10, 2, 11, 3, 4, 5, 6, 7, 8, 9]
+    assert candidate([0,6,6,-76,-21,23,4]) == [-76, -21, 0, 4, 23, 6, 6]
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+
+
+2025-06-29 01:09:53 - Error: .
+ Solution: def is_nested(string):
+    '''
+    Determine if the input string of square brackets contains a valid subsequence
+    with at least one nested bracket.
+
+    Parameters:
+    string (str): A string containing only '[' and ']'.
+
+    Returns:
+    bool: True if there is a valid nested subsequence, False otherwise.
+    '''
+    
+    # Initialize counters for open and close brackets
+    open_count = 0
+    nested_found = False
+    
+    for char in string:
+        if char == '[':
+            open_count += 1
+            # If we have more than one open bracket, we can potentially have nesting
+            if open_count > 1:
+                nested_found = True
+        elif char == ']':
+            # A closing bracket can only be valid if there's an open bracket
+            if open_count > 0:
+                open_count -= 1
+            else:
+                # More closing brackets than opening ones, invalid sequence
+                return False
+    
+    # After processing, we should have no unmatched opening brackets
+    if open_count != 0:
+        return False
+    
+    # Return whether we found any nested structure
+    return nested_found.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate('[[]]') == True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate('[]]]]]]][[[[[]') == False
+    assert candidate('[][]') == False
+    assert candidate(('[]')) == False
+    assert candidate('[[[[]]]]') == True
+    assert candidate('[]]]]]]]]]]') == False
+    assert candidate('[][][[]]') == True
+    assert candidate('[[]') == False
+    assert candidate('[]]') == False
+    assert candidate('[[]][[') == True
+    assert candidate('[[][]]') == True
+
+    # Check some edge cases that are easy to work out by hand.
+    assert candidate('') == False, "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate('[[[[[[[[') == False
+    assert candidate(']]]]]]]]') == False
+
+
+2025-06-29 01:10:39 - Error: .
+ Solution: from itertools import combinations
+from sympy import primerange
+def is_multiply_prime(a):
+    """Check if the given number is the product of exactly three prime numbers."""
+    if a < 1:
+        return False
+    
+    # Generate a list of all prime numbers less than 100
+    primes = list(primerange(1, 100))
+    
+    # Check all combinations of three primes
+    for combo in combinations(primes, 3):
+        if combo[0] * combo[1] * combo[2] == a:
+            return True
+            
+    return False.
+ Test: def check(candidate):
+
+    assert candidate(5) == False
+    assert candidate(30) == True
+    assert candidate(8) == True
+    assert candidate(10) == False
+    assert candidate(125) == True
+    assert candidate(3 * 5 * 7) == True
+    assert candidate(3 * 6 * 7) == False
+    assert candidate(9 * 9 * 9) == False
+    assert candidate(11 * 9 * 9) == False
+    assert candidate(11 * 13 * 7) == True
+
+
+2025-06-29 01:12:22 - Error: .
+ Solution: def check_if_last_char_is_a_letter(txt):
+    '''
+    Create a function that returns True if the last character
+    of a given string is an alphabetical character and is not
+    a part of a word, and False otherwise.
+    Note: "word" is a group of characters separated by space.
+
+    Examples:
+    check_if_last_char_is_a_letter("apple pie") ➞ False
+    check_if_last_char_is_a_letter("apple pi e") ➞ True
+    check_if_last_char_is_a_letter("apple pi e ") ➞ False
+    check_if_last_char_is_a_letter("") ➞ False 
+    '''
+    
+    # Strip any trailing whitespace from the string
+    txt = txt.rstrip()
+    
+    # Check if the string is empty after stripping
+    if not txt:
+        return False
+    
+    # Find the last character in the trimmed string
+    last_char = txt[-1]
+    
+    # Check if the last character is an alphabetical character
+    # and if it is not preceded by another character (i.e., it is not part of a word)
+    if last_char.isalpha():
+        # Check if the character before the last character is a space
+        if len(txt) == 1 or txt[-2] == ' ':
+            return True
+    
+    return False.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate("apple") == False
+    assert candidate("apple pi e") == True
+    assert candidate("eeeee") == False
+    assert candidate("A") == True
+    assert candidate("Pumpkin pie ") == False
+    assert candidate("Pumpkin pie 1") == False
+    assert candidate("") == False
+    assert candidate("eeeee e ") == False
+    assert candidate("apple pie") == False
+    assert candidate("apple pi e ") == False
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True
+
+
+2025-07-15 01:27:56 - Error: Error.
+ Solution: def max_fill(grid, capacity):
+    import math
+    
+    # Step 1: Count the total units of water
+    total_units_of_water = sum(sum(row) for row in grid)
+    
+    # Step 2: Calculate the number of bucket lowerings
+    # We use math.ceil to round up the division result
+    num_lowerings = math.ceil(total_units_of_water / capacity)
+    
+    return num_lowerings.
+ Test: def check(candidate):
+
+
+    # Check some simple cases
+    assert True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate([[0,0,1,0], [0,1,0,0], [1,1,1,1]], 1) == 6, "Error"
+    assert candidate([[0,0,1,1], [0,0,0,0], [1,1,1,1], [0,1,1,1]], 2) == 5, "Error"
+    assert candidate([[0,0,0], [0,0,0]], 5) == 0, "Error"
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate([[1,1,1,1], [1,1,1,1]], 2) == 4, "Error"
+    assert candidate([[1,1,1,1], [1,1,1,1]], 9) == 2, "Error"
+
+
+2025-07-15 01:33:04 - Error: .
+ Solution: import re
+def words_string(s):
+    """
+    Given a string of words separated by commas or spaces, split the string into words
+    and return a list of the words.
+    
+    Args:
+    s (str): A string containing words separated by commas or spaces.
+    
+    Returns:
+    list: A list of words.
+    
+    Examples:
+    >>> words_string("Hi, my name is John")
+    ['Hi', 'my', 'name', 'is', 'John']
+    
+    >>> words_string("One, two, three, four, five, six")
+    ['One', 'two', 'three', 'four', 'five', 'six']
+    """
+    # Use regular expression to split by commas or spaces
+    words = re.split(r'[,\s]+', s.strip())
+    
+    return words.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate("Hi, my name is John") == ["Hi", "my", "name", "is", "John"]
+    assert candidate("One, two, three, four, five, six") == ["One", "two", "three", "four", "five", "six"]
+    assert candidate("Hi, my name") == ["Hi", "my", "name"]
+    assert candidate("One,, two, three, four, five, six,") == ["One", "two", "three", "four", "five", "six"]
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate("") == []
+    assert candidate("ahmed     , gamal") == ["ahmed", "gamal"]
+
+
+2025-07-15 01:33:25 - Error: .
+ Solution: def sum_of_digits(n):
+    """
+    Calculate the sum of the digits of an integer n.
+    This function handles both positive and negative integers.
+    """
+    # Use absolute value to ignore the sign for digit sum calculation
+    return sum(int(digit) for digit in str(abs(n)))
+def order_by_points(nums):
+    """
+    Sort the given list of integers in ascending order according to the sum of their digits.
+    If there are several items with similar sum of their digits, order them based on their index
+    in the original list.
+    
+    Args:
+    nums (list of int): The list of integers to sort.
+    
+    Returns:
+    list of int: The sorted list of integers.
+    
+    Examples:
+    >>> order_by_points([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]
+    >>> order_by_points([]) == []
+    """
+    # Use the sorted function with a custom key
+    # The key is a tuple: (sum of digits, original index)
+    return sorted(nums, key=lambda x: (sum_of_digits(x), nums.index(x))).
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]
+    assert candidate([1234,423,463,145,2,423,423,53,6,37,3457,3,56,0,46]) == [0, 2, 3, 6, 53, 423, 423, 423, 1234, 145, 37, 46, 56, 463, 3457]
+    assert candidate([]) == []
+    assert candidate([1, -11, -32, 43, 54, -98, 2, -3]) == [-3, -32, -98, -11, 1, 2, 43, 54]
+    assert candidate([1,2,3,4,5,6,7,8,9,10,11]) == [1, 10, 2, 11, 3, 4, 5, 6, 7, 8, 9]
+    assert candidate([0,6,6,-76,-21,23,4]) == [-76, -21, 0, 4, 23, 6, 6]
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+
+
+2025-07-15 01:34:18 - Error: .
+ Solution: def is_nested(string):
+    '''
+    Determine if the input string of square brackets contains a valid subsequence
+    where at least one bracket is nested.
+
+    Parameters:
+    string (str): A string containing only '[' and ']'.
+
+    Returns:
+    bool: True if there is a nested structure, False otherwise.
+    '''
+    
+    # Initialize counters for open brackets and a flag for nesting
+    open_count = 0
+    has_nested = False
+    
+    for char in string:
+        if char == '[':
+            open_count += 1
+            # If we have at least one open bracket before this one, we have nesting
+            if open_count > 1:
+                has_nested = True
+        elif char == ']':
+            # If we encounter a closing bracket, we need to check if it matches an open bracket
+            if open_count == 0:
+                # More closing brackets than opening ones, invalid sequence
+                return False
+            open_count -= 1
+    
+    # After processing, we should have no unmatched opening brackets
+    if open_count != 0:
+        return False
+    
+    # Return whether we found any nested structure
+    return has_nested.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate('[[]]') == True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate('[]]]]]]][[[[[]') == False
+    assert candidate('[][]') == False
+    assert candidate(('[]')) == False
+    assert candidate('[[[[]]]]') == True
+    assert candidate('[]]]]]]]]]]') == False
+    assert candidate('[][][[]]') == True
+    assert candidate('[[]') == False
+    assert candidate('[]]') == False
+    assert candidate('[[]][[') == True
+    assert candidate('[[][]]') == True
+
+    # Check some edge cases that are easy to work out by hand.
+    assert candidate('') == False, "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate('[[[[[[[[') == False
+    assert candidate(']]]]]]]]') == False
+
+
+2025-07-15 01:34:24 - Error: .
+ Solution: def is_multiply_prime(a):
+    """Returns true if the given number is the multiplication of 3 prime numbers and false otherwise."""
+    if a >= 100:
+        return False
+    
+    # List of prime numbers less than 100
+    primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+    
+    # Check all combinations of three primes
+    for i in range(len(primes)):
+        for j in range(i, len(primes)):
+            for k in range(j, len(primes)):
+                if primes[i] * primes[j] * primes[k] == a:
+                    return True
+    return False.
+ Test: def check(candidate):
+
+    assert candidate(5) == False
+    assert candidate(30) == True
+    assert candidate(8) == True
+    assert candidate(10) == False
+    assert candidate(125) == True
+    assert candidate(3 * 5 * 7) == True
+    assert candidate(3 * 6 * 7) == False
+    assert candidate(9 * 9 * 9) == False
+    assert candidate(11 * 9 * 9) == False
+    assert candidate(11 * 13 * 7) == True
+
+
+2025-07-15 01:36:41 - Error: .
+ Solution: def check_if_last_char_is_a_letter(txt):
+    '''
+    Create a function that returns True if the last character
+    of a given string is an alphabetical character and is not
+    a part of a word, and False otherwise.
+    Note: "word" is a group of characters separated by space.
+
+    Examples:
+    check_if_last_char_is_a_letter("apple pie") ➞ False
+    check_if_last_char_is_a_letter("apple pi e") ➞ True
+    check_if_last_char_is_a_letter("apple pi e ") ➞ False
+    check_if_last_char_is_a_letter("") ➞ False 
+    '''
+    
+    # Strip any trailing whitespace from the string
+    txt = txt.rstrip()
+    
+    # Check if the string is empty after stripping
+    if not txt:
+        return False
+    
+    # Get the last character of the trimmed string
+    last_char = txt[-1]
+    
+    # Check if the last character is an alphabetical character
+    if last_char.isalpha():
+        # Check if the last character is followed by a space or is the only character
+        if len(txt) == 1 or txt[-2] == ' ':
+            return True
+    
+    return False.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate("apple") == False
+    assert candidate("apple pi e") == True
+    assert candidate("eeeee") == False
+    assert candidate("A") == True
+    assert candidate("Pumpkin pie ") == False
+    assert candidate("Pumpkin pie 1") == False
+    assert candidate("") == False
+    assert candidate("eeeee e ") == False
+    assert candidate("apple pie") == False
+    assert candidate("apple pi e ") == False
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True
+
+
+2025-07-15 02:23:18 - Error: .
+ Solution: def starts_one_ends(n):
+    if n == 1:
+        # For n = 1, the only 1-digit number that starts or ends with 1 is 1 itself.
+        return 1
+    
+    # Count of n-digit numbers that start with 1
+    start_with_1 = 10**(n-1)
+    
+    # Count of n-digit numbers that end with 1
+    end_with_1 = 10**(n-1)
+    
+    # Count of n-digit numbers that start and end with 1
+    start_and_end_with_1 = 10**(n-2)
+    
+    # Total count
+    total_count = start_with_1 + end_with_1 - start_and_end_with_1
+    
+    return total_count.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate(1) == 1
+    assert candidate(2) == 18
+    assert candidate(3) == 180
+    assert candidate(4) == 1800
+    assert candidate(5) == 18000
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+
+
+2025-07-15 02:23:19 - Error: .
+ Solution: def match_parens(lst):
+    s1, s2 = lst[0], lst[1]
+    
+    # Count parentheses in both strings
+    open1 = s1.count('(')
+    close1 = s1.count(')')
+    open2 = s2.count('(')
+    close2 = s2.count(')')
+    
+    # Check the first concatenation: s1 + s2
+    balance1 = open1 - close1
+    balance2 = open2 - close2
+    
+    # Check if s1 + s2 can be balanced
+    if balance1 + balance2 >= 0 and open1 >= close2:
+        return 'Yes'
+    
+    # Check the second concatenation: s2 + s1
+    if balance2 + balance1 >= 0 and open2 >= close1:
+        return 'Yes'
+    
+    return 'No'.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate(['()(', ')']) == 'Yes'
+    assert candidate([')', ')']) == 'No'
+    assert candidate(['(()(())', '())())']) == 'No'
+    assert candidate([')())', '(()()(']) == 'Yes'
+    assert candidate(['(())))', '(()())((']) == 'Yes'
+    assert candidate(['()', '())']) == 'No'
+    assert candidate(['(()(', '()))()']) == 'Yes'
+    assert candidate(['((((', '((())']) == 'No'
+    assert candidate([')(()', '(()(']) == 'No'
+    assert candidate([')(', ')(']) == 'No'
+    
+
+    # Check some edge cases that are easy to work out by hand.
+    assert candidate(['(', ')']) == 'Yes'
+    assert candidate([')', '(']) == 'Yes' 
+
+
+2025-07-15 02:23:21 - Error: Test 2.
+ Solution: def is_bored(S):
+    import re
+    
+    # Split the string into sentences using regex to handle '.', '?', and '!'
+    sentences = re.split(r'[.?!]', S)
+    
+    # Initialize the boredom count
+    boredom_count = 0
+    
+    # Iterate through each sentence
+    for sentence in sentences:
+        # Strip leading and trailing whitespace
+        trimmed_sentence = sentence.strip()
+        
+        # Check if the sentence starts with "I"
+        if trimmed_sentence.startswith("I"):
+            boredom_count += 1
+    
+    return boredom_count.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate("Hello world") == 0, "Test 1"
+    assert candidate("Is the sky blue?") == 0, "Test 2"
+    assert candidate("I love It !") == 1, "Test 3"
+    assert candidate("bIt") == 0, "Test 4"
+    assert candidate("I feel good today. I will be productive. will kill It") == 2, "Test 5"
+    assert candidate("You and I are going for a walk") == 0, "Test 6"
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+
+
+2025-07-15 02:23:33 - Error: This prints if this assert fails 3 (good for debugging!).
+ Solution: import re
+def fix_spaces(text):
+    """
+    Given a string text, replace all spaces in it with underscores, 
+    and if a string has more than 2 consecutive spaces, 
+    then replace all consecutive spaces with - 
+    
+    fix_spaces("Example") == "Example"
+    fix_spaces("Example 1") == "Example_1"
+    fix_spaces(" Example 2") == "_Example_2"
+    fix_spaces(" Example   3") == "_Example-3"
+    """
+    # Replace 2 or more consecutive spaces with a hyphen
+    text = re.sub(r'\s{2,}', '-', text)
+    # Replace remaining single spaces with underscores
+    text = text.replace(' ', '_')
+    return text.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate("Example") == "Example", "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate("Mudasir Hanif ") == "Mudasir_Hanif_", "This prints if this assert fails 2 (good for debugging!)"
+    assert candidate("Yellow Yellow  Dirty  Fellow") == "Yellow_Yellow__Dirty__Fellow", "This prints if this assert fails 3 (good for debugging!)"
+    
+    # Check some edge cases that are easy to work out by hand.
+    assert candidate("Exa   mple") == "Exa-mple", "This prints if this assert fails 4 (good for debugging!)"
+    assert candidate("   Exa 1 2 2 mple") == "-Exa_1_2_2_mple", "This prints if this assert fails 4 (good for debugging!)"
+
+
+2025-07-15 02:24:03 - Error: .
+ Solution: def sort_third(l: list) -> list:
+    """This function takes a list l and returns a new list where
+    elements at indices divisible by three are sorted, while other
+    elements remain unchanged.
+    
+    Args:
+    l (list): The input list to be processed.
+    
+    Returns:
+    list: A new list with sorted elements at indices divisible by three.
+    
+    Examples:
+    >>> sort_third([1, 2, 3])
+    [1, 2, 3]
+    >>> sort_third([5, 6, 3, 4, 8, 9, 2])
+    [2, 6, 3, 4, 8, 9, 5]
+    >>> sort_third([])
+    []
+    >>> sort_third([1, 2])
+    [1, 2]
+    >>> sort_third([3, 1, 2, 6, 5, 4])
+    [2, 1, 3, 4, 5, 6]
+    """
+    
+    # Step 1: Extract values at indices divisible by 3
+    divisible_by_three = [l[i] for i in range(len(l)) if i % 3 == 0]
+    
+    # Step 2: Sort the extracted values
+    sorted_values = sorted(divisible_by_three)
+    
+    # Step 3: Create a new list to hold the result
+    result = l[:]  # Start with a copy of the original list
+    
+    # Step 4: Replace the values at indices divisible by 3 with sorted values
+    for index, value in zip(range(len(l)), sorted_values):
+        if index % 3 == 0:
+            result[index] = value
+            
+    return result.
+ Test: 
+
+METADATA = {}
+
+
+def check(candidate):
+    assert tuple(candidate([1, 2, 3])) == tuple(sort_third([1, 2, 3]))
+    assert tuple(candidate([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])) == tuple(sort_third([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))
+    assert tuple(candidate([5, 8, -12, 4, 23, 2, 3, 11, 12, -10])) == tuple(sort_third([5, 8, -12, 4, 23, 2, 3, 11, 12, -10]))
+    assert tuple(candidate([5, 6, 3, 4, 8, 9, 2])) == tuple([2, 6, 3, 4, 8, 9, 5])
+    assert tuple(candidate([5, 8, 3, 4, 6, 9, 2])) == tuple([2, 8, 3, 4, 6, 9, 5])
+    assert tuple(candidate([5, 6, 9, 4, 8, 3, 2])) == tuple([2, 6, 9, 4, 8, 3, 5])
+    assert tuple(candidate([5, 6, 3, 4, 8, 9, 2, 1])) == tuple([2, 6, 3, 4, 8, 9, 5, 1])
+
+
+2025-07-15 02:24:06 - Error: .
+ Solution: def numerical_letter_grade(grades):
+    """
+    Convert a list of GPAs to their corresponding letter grades based on a defined scale.
+    
+    Parameters:
+    grades (list): A list of GPA values (floats or integers).
+    
+    Returns:
+    list: A list of letter grades corresponding to the input GPAs.
+    """
+    
+    # Define the mapping of GPA thresholds to letter grades
+    gpa_to_grade = [
+        (4.0, 'A+'),
+        (3.7, 'A'),
+        (3.3, 'A-'),
+        (3.0, 'B+'),
+        (2.7, 'B'),
+        (2.3, 'B-'),
+        (2.0, 'C+'),
+        (1.7, 'C'),
+        (1.3, 'C-'),
+        (1.0, 'D+'),
+        (0.7, 'D'),
+        (0.0, 'D-'),
+        (-1, 'E')  # Any GPA <= 0.0 should be considered as 'E'
+    ]
+    
+    # Initialize an empty list to store the letter grades
+    letter_grades = []
+    
+    # Iterate through each GPA in the input list
+    for gpa in grades:
+        # Validate that the GPA is a number
+        if not isinstance(gpa, (int, float)):
+            letter_grades.append('Invalid')  # Append 'Invalid' for non-numeric values
+            continue
+        
+        # Check for GPA out of bounds
+        if gpa < 0.0:
+            letter_grades.append('E')  # Any negative GPA is treated as 'E'
+            continue
+        elif gpa > 4.0:
+            letter_grades.append('Invalid')  # Append 'Invalid' for GPAs above 4.0
+            continue
+        
+        # Determine the letter grade based on GPA
+        for threshold, grade in gpa_to_grade:
+            if gpa >= threshold:
+                letter_grades.append(grade)
+                break
+    
+    return letter_grades.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate([4.0, 3, 1.7, 2, 3.5]) == ['A+', 'B', 'C-', 'C', 'A-']
+    assert candidate([1.2]) == ['D+']
+    assert candidate([0.5]) == ['D-']
+    assert candidate([0.0]) == ['E']
+    assert candidate([1, 0.3, 1.5, 2.8, 3.3]) == ['D', 'D-', 'C-', 'B', 'B+']
+    assert candidate([0, 0.7]) == ['E', 'D-']
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True
+
+
+2025-07-15 02:24:11 - Error: .
+ Solution: def car_race_collision(n: int) -> int:
+    return 0.
+ Test: 
+
+METADATA = {}
+
+
+def check(candidate):
+    assert candidate(2) == 4
+    assert candidate(3) == 9
+    assert candidate(4) == 16
+    assert candidate(8) == 64
+    assert candidate(10) == 100
+
+
+2025-07-15 02:24:15 - Error: .
+ Solution: def total_match(lst1, lst2):
+    '''
+    Write a function that accepts two lists of strings and returns the list that has 
+    total number of chars in the all strings of the list less than the other list.
+
+    if the two lists have the same number of chars, return the first list.
+
+    Examples
+    total_match([], []) ➞ []
+    total_match(['hi', 'admin'], ['hI', 'Hi']) ➞ ['hI', 'Hi']
+    total_match(['hi', 'admin'], ['hi', 'hi', 'admin', 'project']) ➞ ['hi', 'admin']
+    total_match(['hi', 'admin'], ['hI', 'hi', 'hi']) ➞ ['hI', 'hi', 'hi']
+    total_match(['4'], ['1', '2', '3', '4', '5']) ➞ ['4']
+    '''
+    
+    # Calculate the total number of characters in each list
+    total_chars_lst1 = sum(len(s) for s in lst1)
+    total_chars_lst2 = sum(len(s) for s in lst2)
+    
+    # Compare the totals and return the appropriate list
+    if total_chars_lst1 < total_chars_lst2:
+        return lst1
+    else:
+        return lst2  # This includes the case where they are equal.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate([], []) == []
+    assert candidate(['hi', 'admin'], ['hi', 'hi']) == ['hi', 'hi']
+    assert candidate(['hi', 'admin'], ['hi', 'hi', 'admin', 'project']) == ['hi', 'admin']
+    assert candidate(['4'], ['1', '2', '3', '4', '5']) == ['4']
+    assert candidate(['hi', 'admin'], ['hI', 'Hi']) == ['hI', 'Hi']
+    assert candidate(['hi', 'admin'], ['hI', 'hi', 'hi']) == ['hI', 'hi', 'hi']
+    assert candidate(['hi', 'admin'], ['hI', 'hi', 'hii']) == ['hi', 'admin']
+
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate([], ['this']) == []
+    assert candidate(['this'], []) == []
+
+
+2025-07-15 02:24:18 - Error: This prints if this assert fails 1 (good for debugging!).
+ Solution: def encode(message):
+    """
+    Encodes the given message by swapping the case of all letters and replacing vowels
+    with the letter that appears two places ahead in the English alphabet.
+    
+    Parameters:
+    message (str): The input message to encode.
+    
+    Returns:
+    str: The encoded message.
+    
+    Examples:
+    >>> encode('test')
+    'TGST'
+    >>> encode('This is a message')
+    'tHKS KS C MGSSCGG'
+    """
+    
+    # Define a mapping for vowels to their replacements
+    vowel_replacement = {
+        'a': 'c', 'e': 'g', 'i': 'k', 'o': 'q', 'u': 'w',
+        'A': 'C', 'E': 'G', 'I': 'K', 'O': 'Q', 'U': 'W'
+    }
+    
+    # Initialize an empty list to build the encoded message
+    encoded_message = []
+    
+    # Iterate through each character in the message
+    for char in message:
+        if char.isalpha():  # Check if the character is a letter
+            # Swap case
+            if char in vowel_replacement:
+                # Replace vowel with the corresponding letter
+                encoded_message.append(vowel_replacement[char])
+            else:
+                # If it's a consonant, just swap the case
+                encoded_message.append(char.swapcase())
+        else:
+            # If it's not a letter, keep it as is (e.g., spaces)
+            encoded_message.append(char)
+    
+    # Join the list into a single string and return
+    return ''.join(encoded_message).
+ Test: def check(candidate):
+
+    # Check some simple cases
+    assert candidate('TEST') == 'tgst', "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate('Mudasir') == 'mWDCSKR', "This prints if this assert fails 2 (good for debugging!)"
+    assert candidate('YES') == 'ygs', "This prints if this assert fails 3 (good for debugging!)"
+    
+    # Check some edge cases that are easy to work out by hand.
+    assert candidate('This is a message') == 'tHKS KS C MGSSCGG', "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate("I DoNt KnOw WhAt tO WrItE") == 'k dQnT kNqW wHcT Tq wRkTg', "This prints if this assert fails 2 (also good for debugging!)"
+
+
+2025-07-15 02:24:58 - Error: list index out of range.
+ Solution: def tri(n):
+    """Generate the first n + 1 numbers of the modified Tribonacci sequence."""
+    
+    # Initialize the list to store the sequence
+    tribonacci_sequence = []
+    
+    # Handle the base case for n = 0
+    if n >= 0:
+        tribonacci_sequence.append(1)  # tri(0) = 1 (inferred)
+    
+    # Handle the base case for n = 1
+    if n >= 1:
+        tribonacci_sequence.append(3)  # tri(1) = 3
+    
+    # Compute the sequence for n >= 2
+    for i in range(2, n + 1):
+        if i % 2 == 0:  # i is even
+            value = 1 + i // 2
+        else:  # i is odd
+            # tri(i) = tri(i - 1) + tri(i - 2) + tri(i + 1)
+            # We need to ensure we compute tri(i + 1) correctly
+            # We will compute tri(i + 1) in the next iteration
+            if i + 1 < len(tribonacci_sequence):
+                value = tribonacci_sequence[i - 1] + tribonacci_sequence[i - 2] + tribonacci_sequence[i + 1]
+            else:
+                # If we don't have tri(i + 1) yet, we need to compute it
+                # This is a bit tricky, we will compute it in the next loop
+                value = tribonacci_sequence[i - 1] + tribonacci_sequence[i - 2] + 0  # Placeholder for tri(i + 1)
+        
+        tribonacci_sequence.append(value)
+    
+    # Now we need to fix the odd cases where we used a placeholder
+    for i in range(2, n + 1):
+        if i % 2 == 1:  # i is odd
+            tribonacci_sequence[i] = tribonacci_sequence[i - 1] + tribonacci_sequence[i - 2] + tribonacci_sequence[i + 1]
+    
+    return tribonacci_sequence.
+ Test: def check(candidate):
+
+    # Check some simple cases
+    
+    assert candidate(3) == [1, 3, 2.0, 8.0]
+    assert candidate(4) == [1, 3, 2.0, 8.0, 3.0]
+    assert candidate(5) == [1, 3, 2.0, 8.0, 3.0, 15.0]
+    assert candidate(6) == [1, 3, 2.0, 8.0, 3.0, 15.0, 4.0]
+    assert candidate(7) == [1, 3, 2.0, 8.0, 3.0, 15.0, 4.0, 24.0]
+    assert candidate(8) == [1, 3, 2.0, 8.0, 3.0, 15.0, 4.0, 24.0, 5.0]
+    assert candidate(9) == [1, 3, 2.0, 8.0, 3.0, 15.0, 4.0, 24.0, 5.0, 35.0]
+    assert candidate(20) == [1, 3, 2.0, 8.0, 3.0, 15.0, 4.0, 24.0, 5.0, 35.0, 6.0, 48.0, 7.0, 63.0, 8.0, 80.0, 9.0, 99.0, 10.0, 120.0, 11.0]
+
+    # Check some edge cases that are easy to work out by hand.
+    assert candidate(0) == [1]
+    assert candidate(1) == [1, 3]
+
+2025-07-23 20:24:39 - Error: Error.
+ Solution: def max_fill(grid, capacity):
+    import math
+    
+    # Step 1: Count the total units of water
+    total_units_of_water = sum(sum(row) for row in grid)
+    
+    # Step 2: Calculate the number of bucket lowerings
+    # We use math.ceil to round up the division result
+    num_lowerings = math.ceil(total_units_of_water / capacity)
+    
+    return num_lowerings.
+ Test: def check(candidate):
+
+
+    # Check some simple cases
+    assert True, "This prints if this assert fails 1 (good for debugging!)"
+    assert candidate([[0,0,1,0], [0,1,0,0], [1,1,1,1]], 1) == 6, "Error"
+    assert candidate([[0,0,1,1], [0,0,0,0], [1,1,1,1], [0,1,1,1]], 2) == 5, "Error"
+    assert candidate([[0,0,0], [0,0,0]], 5) == 0, "Error"
+
+    # Check some edge cases that are easy to work out by hand.
+    assert True, "This prints if this assert fails 2 (also good for debugging!)"
+    assert candidate([[1,1,1,1], [1,1,1,1]], 2) == 4, "Error"
+    assert candidate([[1,1,1,1], [1,1,1,1]], 9) == 2, "Error"
+
+

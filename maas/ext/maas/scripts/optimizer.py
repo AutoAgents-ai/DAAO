@@ -102,8 +102,19 @@ class Optimizer:
         graph_path = f"{self.root_path}/train"
         data = self.data_utils.load_results(graph_path)
 
+        # DICT{}
         operator_descriptions = self.graph_utils.load_operators_description_maas(self.operators) 
         precomputed_operator_embeddings = torch.stack([get_sentence_embedding(op_desc) for op_desc in operator_descriptions]).to(self.device)
+        
+        # model assign
+        # [num_llm, dim=384]
+        llm_names = ["gpt-4o-mini", "qwen2:72b", 'llama3.1:70b']
+        LLM_descriptions = self.graph_utils.load_operators_description_maas_v2(llm_names)
+        print(LLM_descriptions )
+        llm_embeddings = torch.stack([
+            get_sentence_embedding(name) for name in LLM_descriptions
+        ]).to(self.device)
+
         directory = self.graph_utils.create_round_directory(graph_path, self.round)
         logger.info(directory)
 
@@ -111,6 +122,7 @@ class Optimizer:
 
         params = {
             "operator_embeddings": precomputed_operator_embeddings,
+            "llm_embeddings":llm_embeddings,
             "controller": self.controller,
             "execute_llm_config": self.execute_llm_config, 
             "dataset": self.dataset, 
@@ -133,6 +145,11 @@ class Optimizer:
         operator_descriptions = self.graph_utils.load_operators_description_maas(self.operators) 
         precomputed_operator_embeddings = torch.stack([get_sentence_embedding(op_desc) for op_desc in operator_descriptions]).to(self.device)
 
+        llm_names = ["gpt-4o-mini", "qwen2.5:7b", "qwen2.5:7b-instruct", "gpt-4o"]
+        llm_embeddings = torch.stack([
+            get_sentence_embedding(name) for name in llm_names
+        ]).to(self.device)
+
         self.graph = self.graph_utils.load_graph_maas(graph_path)
         directory = self.graph_utils.create_round_directory(graph_path, self.round)
 
@@ -150,6 +167,7 @@ class Optimizer:
 
         params = {
             "operator_embeddings": precomputed_operator_embeddings,
+            "llm_embeddings":llm_embeddings,
             "controller": self.controller,
             "execute_llm_config": self.execute_llm_config,  
             "dataset": self.dataset,                        

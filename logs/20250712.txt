@@ -1,0 +1,18 @@
+2025-07-12 21:16:10.134 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:116 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-12 21:16:10.186 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-12 21:16:29.961 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-07-12 21:16:29.962 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-07-12 21:16:29.962 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-07-12 21:16:29.962 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-07-12 21:16:29.963 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-12 21:16:29.963 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-12 21:16:34.968 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-07-12 21:55:29.869 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:116 - maas/ext/maas/scripts/optimized/MATH/train/round_8
+2025-07-12 21:55:29.908 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/3
+2025-07-12 21:55:49.700 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-07-12 21:55:49.700 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-07-12 21:55:49.700 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-07-12 21:55:49.700 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:147 - Maximum retries reached. Skipping this sample. Error: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+2025-07-12 21:55:49.701 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: tuple index out of range. Retrying... (Attempt 1/1)
+2025-07-12 21:55:49.701 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-07-12 21:55:54.706 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None

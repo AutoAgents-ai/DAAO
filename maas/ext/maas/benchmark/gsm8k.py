@@ -47,7 +47,8 @@ class GSM8KBenchmark(BaseBenchmark):
         expected_output = self.extract_number(problem["answer"])
 
         try:
-            output, cost, logprob = await self._generate_output(graph, input_text)
+            output, cost, logprob, vae = await self._generate_output(graph, input_text)
+            print("能出来workflow?")
             if not output:
                 raise ValueError("output is empty")            
 
@@ -56,12 +57,22 @@ class GSM8KBenchmark(BaseBenchmark):
 
             if score == 0:
                 self.log_mismatch(input_text, expected_output, output, extracted_output)
+                vae["is_solved"] = 0
+            else:
+                vae["is_solved"] = 1
 
-            return input_text, output, expected_output, score, cost, logprob
+            return input_text, output, expected_output, score, cost, logprob, vae
 
         except Exception as e:
             logger.info(f"Maximum retries reached. Skipping this sample. Error: {e}")
-            return input_text, str(e), expected_output, 0.0, 0.0, torch.tensor(0.0, dtype=torch.float32, device=self.device)
+            vae = {
+                    "z_difficulty": torch.zeros((1, 32), device=self.device),
+                   "difficulty_scalar":torch.tensor(0.5, device=self.device),
+                   "mu":torch.zeros((1, 32), device=self.device),
+                   "logvar": torch.zeros((1, 32), device=self.device),
+                   "is_solved": 0
+            }
+            return input_text, str(e), expected_output, 0.0, 0.0, torch.tensor(0.0, dtype=torch.float32, device=self.device), vae
 
     def get_result_columns(self) -> List[str]:
-        return ["question", "prediction", "expected_output", "score", "cost", "logprob"]
+        return ["question", "prediction", "expected_output", "score", "cost", "logprob","vae"]

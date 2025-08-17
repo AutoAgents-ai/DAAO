@@ -1,0 +1,98 @@
+inputs,prediction,expected_output,score,logprob,vae
+"
+def solve(N):
+    """"""Given a positive integer N, return the total sum of its digits in binary.
+    
+    Example
+        For N = 1000, the sum of digits will be 1 the output should be ""1"".
+        For N = 150, the sum of digits will be 6 the output should be ""110"".
+        For N = 147, the sum of digits will be 12 the output should be ""1100"".
+    
+    Variables:
+        @N integer
+             Constraints: 0 ≤ N ≤ 10000.
+    Output:
+         a string of binary number
+    """"""
+",Timeout,"
+Correct Solution:
+def solve(params you should put here):
+
+    return bin(sum(int(i) for i in str(N)))[2:]
+",0.0,"tensor(0., device='cuda:0')","{'z_difficulty': tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0.]], device='cuda:0'), 'difficulty_scalar': tensor(0.5000, device='cuda:0'), 'mu': tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0.]], device='cuda:0'), 'logvar': tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0.]], device='cuda:0'), 'is_solved': 0}"
+"
+
+def truncate_number(number: float) -> float:
+    """""" Given a positive floating point number, it can be decomposed into
+    and integer part (largest integer smaller than given number) and decimals
+    (leftover part always smaller than 1).
+
+    Return the decimal part of the number.
+    >>> truncate_number(3.5)
+    0.5
+    """"""
+",Timeout,"
+Correct Solution:
+def truncate_number(params you should put here):
+
+    return number % 1.0
+",0.0,"tensor(0., device='cuda:0')","{'z_difficulty': tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0.]], device='cuda:0'), 'difficulty_scalar': tensor(0.5000, device='cuda:0'), 'mu': tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0.]], device='cuda:0'), 'logvar': tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0.]], device='cuda:0'), 'is_solved': 0}"
+"
+
+def skjkasdkd(lst):
+    """"""You are given a list of integers.
+    You need to find the largest prime value and return the sum of its digits.
+
+    Examples:
+    For lst = [0,3,2,1,3,5,7,4,5,5,5,2,181,32,4,32,3,2,32,324,4,3] the output should be 10
+    For lst = [1,0,1,8,2,4597,2,1,3,40,1,2,1,2,4,2,5,1] the output should be 25
+    For lst = [1,3,1,32,5107,34,83278,109,163,23,2323,32,30,1,9,3] the output should be 13
+    For lst = [0,724,32,71,99,32,6,0,5,91,83,0,5,6] the output should be 11
+    For lst = [0,81,12,3,1,21] the output should be 3
+    For lst = [0,8,1,2,1,7] the output should be 7
+    """"""
+",Timeout,"
+Correct Solution:
+def skjkasdkd(params you should put here):
+
+    def isPrime(n):
+        for i in range(2,int(n**0.5)+1):
+            if n%i==0:
+                return False
+
+        return True
+    maxx = 0
+    i = 0
+    while i < len(lst):
+        if(lst[i] > maxx and isPrime(lst[i])):
+            maxx = lst[i]
+        i+=1
+    result = sum(int(digit) for digit in str(maxx))
+    return result
+
+",0.0,"tensor(0., device='cuda:0')","{'z_difficulty': tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0.]], device='cuda:0'), 'difficulty_scalar': tensor(0.5000, device='cuda:0'), 'mu': tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0.]], device='cuda:0'), 'logvar': tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0.]], device='cuda:0'), 'is_solved': 0}"
+"
+
+def triangle_area(a, h):
+    """"""Given length of a side and high return area for a triangle.
+    >>> triangle_area(5, 3)
+    7.5
+    """"""
+",Timeout,"
+Correct Solution:
+def triangle_area(params you should put here):
+
+    return a * h / 2.0
+",0.0,"tensor(0., device='cuda:0')","{'z_difficulty': tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0.]], device='cuda:0'), 'difficulty_scalar': tensor(0.5000, device='cuda:0'), 'mu': tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0.]], device='cuda:0'), 'logvar': tensor([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0.]], device='cuda:0'), 'is_solved': 0}"

@@ -1,0 +1,34 @@
+[
+    {
+        "round": 3,
+        "score": 0.9236641221374046,
+        "avg_cost": null,
+        "total_cost": null,
+        "token": null,
+        "time": "2025-07-15T02:33:55.829197"
+    },
+    {
+        "round": 3,
+        "score": 0.0,
+        "avg_cost": null,
+        "total_cost": null,
+        "token": null,
+        "time": "2025-07-15T15:14:50.031550"
+    },
+    {
+        "round": 3,
+        "score": 1.0,
+        "avg_cost": null,
+        "total_cost": null,
+        "token": null,
+        "time": "2025-07-15T15:19:23.060152"
+    },
+    {
+        "round": 3,
+        "score": 1.0,
+        "avg_cost": null,
+        "total_cost": null,
+        "token": null,
+        "time": "2025-07-15T15:20:46.541113"
+    }
+]

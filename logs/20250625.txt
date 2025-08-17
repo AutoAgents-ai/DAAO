@@ -1,0 +1,150 @@
+2025-06-25 15:02:27.029 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:108 - maas/ext/maas/scripts/optimized/HumanEval/train/round_1
+2025-06-25 15:02:27.075 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: [Errno 2] No such file or directory: 'maas/ext/maas/data/humaneval_train.jsonl'. Retrying... (Attempt 1/1)
+2025-06-25 15:02:27.075 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-06-25 15:02:32.081 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-06-25 15:06:53.624 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:108 - maas/ext/maas/scripts/optimized/MATH/train/round_1
+2025-06-25 15:06:53.674 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:124 - Starting training repetition 1/4
+2025-06-25 15:09:49.098 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 1 Loss: 2.557368278503418
+2025-06-25 15:57:59.066 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:108 - maas/ext/maas/scripts/optimized/MATH/train/round_1
+2025-06-25 15:57:59.116 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:124 - Starting training repetition 1/4
+2025-06-25 15:59:25.517 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 1 Loss: 3.396578311920166
+2025-06-25 16:01:23.332 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 2 Loss: 0.7427406907081604
+2025-06-25 16:02:56.018 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 3 Loss: 1.4241281747817993
+2025-06-25 16:04:27.014 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 4 Loss: 2.033264636993408
+2025-06-25 16:11:39.487 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 5 Loss: 2.406092405319214
+2025-06-25 16:14:36.747 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 6 Loss: 3.3993823528289795
+2025-06-25 16:16:12.887 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 7 Loss: 2.875443696975708
+2025-06-25 16:20:08.347 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 8 Loss: 4.3369951248168945
+2025-06-25 16:22:00.506 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 9 Loss: 3.1730828285217285
+2025-06-25 16:25:56.404 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 10 Loss: 1.5699807405471802
+2025-06-25 16:29:44.590 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 11 Loss: 2.4087705612182617
+2025-06-25 16:31:04.071 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 12 Loss: 1.5027921199798584
+2025-06-25 16:34:01.412 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 13 Loss: 2.2950351238250732
+2025-06-25 16:34:56.464 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 14 Loss: 3.356778144836426
+2025-06-25 16:36:19.375 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 15 Loss: 1.2124903202056885
+2025-06-25 16:46:22.784 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:144 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-06-25 16:46:22.795 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 16 Loss: 2.4114136695861816
+2025-06-25 16:50:38.577 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 17 Loss: 0.9266912341117859
+2025-06-25 16:52:12.741 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 18 Loss: 2.8040151596069336
+2025-06-25 16:53:55.308 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 19 Loss: 0.959448516368866
+2025-06-25 16:54:48.776 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 20 Loss: 0.4740517735481262
+2025-06-25 16:56:32.214 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 21 Loss: 0.4946725070476532
+2025-06-25 17:00:11.351 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 22 Loss: 2.1209166049957275
+2025-06-25 17:02:43.985 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 23 Loss: 0.39438682794570923
+2025-06-25 17:06:44.815 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 24 Loss: 2.508082866668701
+2025-06-25 17:08:18.465 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 25 Loss: 0.6925061345100403
+2025-06-25 17:09:20.238 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 26 Loss: 0.439456969499588
+2025-06-25 17:10:36.824 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 27 Loss: 2.4507763385772705
+2025-06-25 17:11:32.424 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 28 Loss: 1.9658710956573486
+2025-06-25 17:13:07.210 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 29 Loss: 0.9711554050445557
+2025-06-25 17:14:03.442 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 1: Batch 30 Loss: 1.2381914854049683
+2025-06-25 17:14:03.443 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:124 - Starting training repetition 2/4
+2025-06-25 17:16:41.202 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 1 Loss: 1.4808359146118164
+2025-06-25 17:17:50.312 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 2 Loss: 1.826211929321289
+2025-06-25 17:19:08.916 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 3 Loss: 0.6761258840560913
+2025-06-25 17:19:41.822 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 4 Loss: 0.6347275972366333
+2025-06-25 17:21:45.486 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 5 Loss: 1.5925371646881104
+2025-06-25 17:22:24.605 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 6 Loss: 1.5410387516021729
+2025-06-25 17:22:58.065 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 7 Loss: 0.9519699215888977
+2025-06-25 17:24:04.422 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 8 Loss: 2.1989798545837402
+2025-06-25 17:25:02.656 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 9 Loss: 3.159341335296631
+2025-06-25 17:26:08.750 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 10 Loss: 1.2117940187454224
+2025-06-25 17:32:41.861 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 11 Loss: 0.9154930114746094
+2025-06-25 17:34:39.584 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 12 Loss: 2.2932636737823486
+2025-06-25 17:35:46.790 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 13 Loss: 3.329159736633301
+2025-06-25 17:36:23.402 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 14 Loss: 2.308997631072998
+2025-06-25 17:38:17.526 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 15 Loss: 3.397345781326294
+2025-06-25 17:47:55.498 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:144 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-06-25 17:47:55.511 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 16 Loss: 2.0445268154144287
+2025-06-25 17:49:40.887 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 17 Loss: 2.3210742473602295
+2025-06-25 17:51:18.671 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 18 Loss: 3.0897130966186523
+2025-06-25 17:53:14.703 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 19 Loss: 1.3717776536941528
+2025-06-25 17:54:41.794 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 20 Loss: 0.3133116662502289
+2025-06-25 17:56:51.056 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 21 Loss: -0.0005874498747289181
+2025-06-25 17:58:33.515 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 22 Loss: 0.2784167528152466
+2025-06-25 18:00:47.384 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 23 Loss: 0.3854926824569702
+2025-06-25 18:03:27.725 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 24 Loss: -0.010533800348639488
+2025-06-25 18:04:43.661 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 25 Loss: 0.7243579626083374
+2025-06-25 18:05:39.223 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 26 Loss: 1.3969701528549194
+2025-06-25 18:07:01.157 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 27 Loss: 1.8718057870864868
+2025-06-25 18:08:17.068 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 28 Loss: 1.7853984832763672
+2025-06-25 18:10:27.630 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 29 Loss: 0.31924527883529663
+2025-06-25 18:11:34.569 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 2: Batch 30 Loss: 1.6974565982818604
+2025-06-25 18:11:34.570 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:124 - Starting training repetition 3/4
+2025-06-25 18:12:46.797 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 1 Loss: 1.9846181869506836
+2025-06-25 18:14:18.680 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 2 Loss: 0.3021260201931
+2025-06-25 18:15:07.937 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 3 Loss: 0.8253198862075806
+2025-06-25 18:15:44.923 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 4 Loss: 3.118133783340454
+2025-06-25 18:16:45.884 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 5 Loss: 2.1907858848571777
+2025-06-25 18:18:16.520 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 6 Loss: 1.5426790714263916
+2025-06-25 18:20:12.925 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 7 Loss: 3.098186731338501
+2025-06-25 18:22:25.141 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 8 Loss: 2.1919562816619873
+2025-06-25 18:23:38.147 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 9 Loss: 3.1054985523223877
+2025-06-25 18:24:56.335 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 10 Loss: 1.255728840827942
+2025-06-25 18:26:24.622 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 11 Loss: 1.2356629371643066
+2025-06-25 18:27:02.468 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 12 Loss: 0.6167505979537964
+2025-06-25 18:28:53.190 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 13 Loss: 4.364624500274658
+2025-06-25 18:29:51.878 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 14 Loss: 3.3678860664367676
+2025-06-25 18:31:20.973 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 15 Loss: 0.9205076098442078
+2025-06-25 18:41:24.643 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:144 - Maximum retries reached. Skipping this sample. Error: '-2'
+2025-06-25 18:41:24.659 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 16 Loss: 3.420997142791748
+2025-06-25 18:44:14.876 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 17 Loss: 1.330664038658142
+2025-06-25 18:45:53.899 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 18 Loss: 2.1812305450439453
+2025-06-25 18:46:48.616 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 19 Loss: 0.30195021629333496
+2025-06-25 18:48:29.627 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 20 Loss: 0.49455583095550537
+2025-06-25 18:50:55.934 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 21 Loss: 0.5130038261413574
+2025-06-25 18:53:00.203 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 22 Loss: 0.2968688905239105
+2025-06-25 18:55:06.798 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 23 Loss: -0.04149699956178665
+2025-06-25 18:57:06.417 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 24 Loss: 0.02629299834370613
+2025-06-25 18:57:57.585 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 25 Loss: 0.9098896384239197
+2025-06-25 19:01:15.579 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 26 Loss: 0.5210777521133423
+2025-06-25 19:02:01.929 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 27 Loss: 1.7826054096221924
+2025-06-25 19:03:01.349 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 28 Loss: 1.4611296653747559
+2025-06-25 19:04:50.680 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 29 Loss: 0.3252226710319519
+2025-06-25 19:06:28.497 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 3: Batch 30 Loss: 0.30829858779907227
+2025-06-25 19:06:28.498 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:124 - Starting training repetition 4/4
+2025-06-25 19:09:03.160 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 1 Loss: 1.2739092111587524
+2025-06-25 19:09:46.959 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 2 Loss: 0.31183433532714844
+2025-06-25 19:10:55.679 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 3 Loss: 1.2573180198669434
+2025-06-25 19:11:54.258 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 4 Loss: 0.6143738627433777
+2025-06-25 19:13:19.382 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 5 Loss: 0.48022374510765076
+2025-06-25 19:14:29.259 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 6 Loss: 1.558914303779602
+2025-06-25 19:15:03.419 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 7 Loss: 3.134406805038452
+2025-06-25 19:17:23.424 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 8 Loss: 1.1244406700134277
+2025-06-25 19:18:08.073 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 9 Loss: 0.27146950364112854
+2025-06-25 19:20:08.616 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 10 Loss: 1.1943504810333252
+2025-06-25 19:22:24.127 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 11 Loss: 1.2032440900802612
+2025-06-25 19:24:57.980 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 12 Loss: 1.1772956848144531
+2025-06-25 19:26:46.020 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 13 Loss: 0.9152973294258118
+2025-06-25 19:27:26.531 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 14 Loss: 2.474853992462158
+2025-06-25 19:28:40.182 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 15 Loss: 2.4880692958831787
+2025-06-25 19:40:01.354 | INFO     | maas.ext.maas.benchmark.math:evaluate_problem:144 - Maximum retries reached. Skipping this sample. Error: 'C, E'
+2025-06-25 19:40:01.378 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 16 Loss: 2.1542935371398926
+2025-06-25 19:41:38.294 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 17 Loss: -0.7397691607475281
+2025-06-25 19:43:38.634 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 18 Loss: 0.9164024591445923
+2025-06-25 19:44:31.521 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 19 Loss: 0.2779622972011566
+2025-06-25 19:45:39.283 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 20 Loss: 0.29043805599212646
+2025-06-25 19:47:16.879 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 21 Loss: -0.04090210050344467
+2025-06-25 19:48:02.970 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 22 Loss: 0.9210772514343262
+2025-06-25 19:50:09.850 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 23 Loss: 1.224247932434082
+2025-06-25 19:52:23.680 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 24 Loss: 0.9453780055046082
+2025-06-25 19:53:30.827 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 25 Loss: 1.2070717811584473
+2025-06-25 19:55:27.968 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 26 Loss: 4.440601348876953
+2025-06-25 19:56:41.337 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 27 Loss: 6.243934631347656
+2025-06-25 19:58:27.516 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 28 Loss: 1.1485129594802856
+2025-06-25 19:59:21.861 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 29 Loss: 0.49979928135871887
+2025-06-25 20:00:09.415 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:172 - Repetition 4: Batch 30 Loss: 2.469918966293335
+2025-06-25 20:00:09.692 | INFO     | maas.ext.maas.benchmark.benchmark:save_results_to_csv:66 - Results saved to maas/ext/maas/scripts/optimized/MATH/train/round_1/0.53151_20250625_200009.csv
+2025-06-25 20:00:09.692 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:215 - Average score on MATH dataset: 0.53151
+2025-06-25 20:00:09.695 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:221 - Saved controller parameters to maas/ext/maas/scripts/optimized/MATH/train/round_1/MATH_controller_sample4.pth
+2025-06-25 20:00:09.695 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:222 - Successfully Finish Training
+2025-06-25 20:00:09.708 | INFO     | maas.ext.maas.scripts.optimizer:optimize:84 - Error occurred: create_result_data() missing 3 required positional arguments: 'avg_cost', 'total_cost', and 'token'. Retrying... (Attempt 1/1)
+2025-06-25 20:00:09.711 | INFO     | maas.ext.maas.scripts.optimizer:optimize:86 - Max retries reached. Moving to next round.
+2025-06-25 20:00:14.716 | INFO     | maas.ext.maas.scripts.optimizer:optimize:96 - Score for round 1: None
+2025-06-25 20:31:52.481 | INFO     | maas.ext.maas.scripts.optimizer:test:142 - maas/ext/maas/scripts/optimized/MATH/train/round_1/MATH_controller_sample4.pth
+2025-06-25 20:33:32.810 | INFO     | maas.ext.maas.scripts.optimized.MATH.test.template.operator:run_code:94 - Detected prohibited import: %s
+2025-06-25 20:53:56.392 | INFO     | maas.ext.maas.scripts.optimized.MATH.test.template.operator:run_code:94 - Detected prohibited import: %s
+2025-06-25 23:43:00.977 | INFO     | maas.ext.maas.scripts.optimizer:test:142 - maas/ext/maas/scripts/optimized/MATH/train/round_1/MATH_controller_sample4.pth
+2025-06-25 23:43:26.965 | INFO     | maas.ext.maas.scripts.optimizer:test:142 - maas/ext/maas/scripts/optimized/MATH/train/round_1/MATH_controller_sample3.pth
+2025-06-25 23:44:58.469 | INFO     | maas.ext.maas.scripts.optimizer:test:142 - maas/ext/maas/scripts/optimized/MATH/train/round_1/MATH_controller_sample4.pth
+2025-06-26 00:09:54.924 | INFO     | maas.ext.maas.scripts.optimized.MATH.test.template.operator:run_code:94 - Detected prohibited import: %s

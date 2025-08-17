@@ -1,0 +1,11 @@
+{
+    "gpt-4o-mini":{
+        "Description": "GPT -4o Mini is a smaller version of the GPT -4o language model , designed for faster inference and reduced memory usage. It retains the same capabilities as the full -size model , but with fewer parameters. The model costs $0.15 per million input tokens and $0.6 per million output tokens. In General Q&A Benchmark MMLU , GPT -4o-mini achieves an accuracy of 77.8. In Reasoning Benchmark GPQA , GPT -4o-mini achieves an accuracy of 40.2. In Coding Benchmark HumanEval , GPT -4o-mini achieves an accuracy of 85.7. In Math Benchmark MATH , GPT -4o-mini achieves an accuracy of 66.09."
+    },
+    "qwen2.5:70b": {
+        "Description": "Qwen2.5-7B is a 7 billion parameter open-source language model developed by Alibaba. It is trained with multilingual data and supports instruction-following and code generation tasks. The model costs $0.08 per million input tokens and $0.16 per million output tokens. In General Q&A Benchmark MMLU, Qwen2.5-7B achieves an accuracy of 74.2. In Reasoning Benchmark GPQA, it achieves 41.3. In Coding Benchmark HumanEval, it scores 71.4. In Math Benchmark MATH, the accuracy is 55.2."
+    },
+    "llama3.1:70b" :{
+        "Description": "The Meta Llama 3.1 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in /text out). The model costs $0.2 per million input tokens and $0.2 per million output tokens. In General Q&A Benchmark MMLU , Llama 3.1 achieves an accuracy of 79.1. In Reasoning Benchmark GPQA , Llama 3.1 achieves an accuracy of 46.7. In Coding Benchmark HumanEval , Llama 3.1 achieves an accuracy of 80.7. In Math Benchmark MATH , Llama 3.1 achieves an accuracy of 60.3."
+    }
+}

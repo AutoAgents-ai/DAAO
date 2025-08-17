@@ -5,7 +5,6 @@ from maas.ext.maas.scripts.optimized.MATH.train.template.operator import (
     ScEnsemble,
     Programmer,
     SelfRefine,
-    EarlyStop
 )
 
 operator_mapping = {
@@ -15,7 +14,6 @@ operator_mapping = {
     "ScEnsemble": ScEnsemble,
     "Programmer": Programmer,
     "SelfRefine": SelfRefine,
-    "EarlyStop": EarlyStop,
 }
 
 operator_names = list(operator_mapping.keys())

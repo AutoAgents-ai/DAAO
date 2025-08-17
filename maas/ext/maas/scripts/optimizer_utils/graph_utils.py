@@ -58,8 +58,23 @@ class GraphUtils:
         for id, operator in enumerate(operators, start=0):
             operator_description = self._load_operator_description(id, operator, path)
             operators_description.append(operator_description)
+        return operators_description 
+    
+    def load_operators_description_maas_v2(self, operators: List[str]) -> List[str]:
+        path = "maas/ext/maas/models/llm.json"
+        operators_description = []
+        for id, operator in enumerate(operators, start=0):
+            operator_description = self._load_operator_description_v2(id, operator, path)
+            operators_description.append(operator_description)
         return operators_description
     
+    def _load_operator_description_v2(self, id: int, operator_name: str, file_path: str) -> str:
+        with open(file_path, "r", encoding="utf-8") as f:
+            operator_data = json.load(f)
+            matched_data = operator_data.get(operator_name, {})
+            desc = matched_data.get("Description", "No description available")
+            return f"{id}. {operator_name}: {desc}"
+
     def _load_operator_description(self, id: int, operator_name: str, file_path: str) -> str:
         with open(file_path, "r", encoding="utf-8") as f:
             operator_data = json.load(f)

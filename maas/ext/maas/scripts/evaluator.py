@@ -47,12 +47,14 @@ class Evaluator:
         operator_embeddings = params.get("operator_embeddings")
         llm_config = params.get("execute_llm_config")
         dataset_config = params.get("dataset")
+        llm_embeddings = params.get("llm_embeddings")
         configured_graph = graph(
             name=dataset,
             llm_config=llm_config,
             dataset=dataset_config,
             controller=controller,
             operator_embeddings=operator_embeddings,
+            llm_embeddings = llm_embeddings
         )
         return configured_graph
 

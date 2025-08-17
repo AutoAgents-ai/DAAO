@@ -2,14 +2,14 @@ from sentence_transformers import SentenceTransformer
 import torch
     
 def get_sentence_embedding(sentence):
-    model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+    model = SentenceTransformer('./all-MiniLM-L6-v2')
     embeddings = model.encode(sentence)
     return torch.tensor(embeddings)
 
 class SentenceEncoder(torch.nn.Module):
     def __init__(self):
         super().__init__()
-        self.model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+        self.model = SentenceTransformer('./all-MiniLM-L6-v2')
         for param in self.model.parameters():
             param.requires_grad = False
 
@@ -30,15 +30,17 @@ def sample_operators(probs: torch.Tensor, threshold: float = 0.25) -> torch.Tens
     remaining = torch.arange(num_ops, device=device)
     
     while cumulative < threshold and remaining.numel() > 0:
+        # 从剩余中选择
         sampled = torch.multinomial(probs[remaining], num_samples=1)
         idx = remaining[sampled].squeeze()
 
         if not torch.any(selected == idx):
             selected = torch.cat([selected, idx.unsqueeze(0)])
             cumulative += probs[idx].item()
-        
+        # 全是true的同样tensor
         mask = torch.ones_like(remaining, dtype=torch.bool)
         mask[sampled] = False
+        # 布尔索引去除已经选择的
         remaining = remaining[mask]
     
     if selected.numel() == 0:

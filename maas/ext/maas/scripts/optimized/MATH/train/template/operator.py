@@ -161,9 +161,9 @@ class SelfRefine(Operator):
         response = await self._fill_node(SelfRefineOp, prompt, mode="single_fill")
         return response
     
-class EarlyStop(Operator):
-    def __init__(self, llm: LLM, name: str = "EarlyStop"):
-        super().__init__(llm, name)
+# class EarlyStop(Operator):
+#     def __init__(self, llm: LLM, name: str = "EarlyStop"):
+#         super().__init__(llm, name)
 
-    async def __call__(self):
-        return NotImplementedError
+#     async def __call__(self):
+#         return NotImplementedError

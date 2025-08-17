@@ -1,14 +1,80 @@
-# Full Example: https://github.com/geekan/MetaGPT/blob/main/config/config2.example.yaml
-# Reflected Code: https://github.com/geekan/MetaGPT/blob/main/metagpt/config2.py
-# Config Docs: https://docs.deepwisdom.ai/main/en/guide/get_started/configuration.html
+
 llm:
-  api_type: "openai"  # or azure / ollama / groq etc.
-  model: "gpt-4o-mini"  #  gpt-3.5-turbo or gpt-4-turbo
-  base_url: ""  # or forward url / other llm url
-  api_key: ""
+  api_type: "ollama"  # or azure / ollama / groq etc.
+  model: "qwen2.5:7b"  # or gpt-3.5-turbo
+  base_url: "http://localhost:11500/v1"  # or forward url / other llm url
+  api_key: "ollama"
+
 models:
-  gpt-4o-mini:
-    api_type: "openai"  # or azure / ollama / groq etc.
-    model: "gpt-4o-mini"  #  gpt-3.5-turbo or gpt-4-turbo
-    base_url: ""  # or forward url / other llm url
-    api_key: ""
+ "qwen2.5:7b":
+   api_type: "ollama"  # or azure / ollama / groq etc.
+   model: "qwen2.5:7b"  # or gpt-3.5-turbo
+   base_url: "http://localhost:11500/v1"  # or forward url / other llm url
+   api_key: "ollama"
+   temperature: 0
+ "llama3.1:70b":
+    api_type: "ollama"  # or azure / ollama / groq etc.
+    model: "llama3.1:70b"  # or gpt-3.5-turbo
+    base_url: "http://localhost:11500/v1"  # or forward url / other llm url
+    api_key: "ollama"
+    temperature: 0
+ "qwen2.5:7b-instruct":
+   api_type: "ollama"  # or azure / ollama / groq etc.
+   model: "qwen2.5:7b-instruct"  # or gpt-3.5-turbo
+   base_url: "http://localhost:11500/v1"  # or forward url / other llm url
+   api_key: "ollama"
+   temperature: 0
+ "qwen2.5-coder":
+   api_type: "ollama"  # or azure / ollama / groq etc.
+   model: "qwen2.5-coder"  # or gpt-3.5-turbo
+   base_url: "http://localhost:11500/v1"  # or forward url / other llm url
+   api_key: "ollama"
+   temperature: 0
+ "gpt-4o-mini":
+   api_type: "azure"
+   base_url: "https://agents-lingda.openai.azure.com/"
+   api_version: "2024-02-15-preview"
+   deployment_name: "gpt-4o-mini"
+   api_key: "474a48443ed14770be99cc49130b1438"
+   temperature: 0
+   model: "gpt-4o-mini"
+ "gpt-4o":
+   api_type: "azure"
+   base_url: "https://agents-lingda.openai.azure.com/"
+   api_version: "2024-02-15-preview"
+   deployment_name: "gpt-4o"
+   api_key: "474a48443ed14770be99cc49130b1438"
+   temperature: 0
+   model: "gpt-4o"
+ "claude-3-5-sonnet-20240620":
+   api_type: "anthropic"
+   base_url: "https://api.anthropic.com"
+   api_key: "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"
+   temperature: 0
+ "gpt-4-turbo":
+   api_type: "openai"
+   base_url: "https://api.openai.com/v1"
+   api_key: "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"
+   temperature: 0
+ "o1-mini":
+    api_type: "openai"
+    base_url: "https://api.openai.com/v1"
+    api_key: "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"
+    temperature: 0
+ "deepseek-reasoner":
+    api_type: "openai"
+    base_url: "https://api.deepseek.com/v1"
+    api_key: "sk-509d832659e64e73bcb61fc420bf4910"
+    temperature: 0
+ "gpt-3.5-turbo-0125":
+    api_type: "openai"
+    base_url: "https://api.openai.com/v1"
+    api_key: "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"
+    temperature: 0
+ "deepseek-chat":
+    api_type: "openai"
+    base_url: "https://api.deepseek.com/v1"
+    api_key: "sk-509d832659e64e73bcb61fc420bf4910"
+    temperature: 0
+
+CALC_USAGE: True

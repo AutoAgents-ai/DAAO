@@ -1,0 +1,29 @@
+2025-07-23 20:23:57.179 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:119 - maas/ext/maas/scripts/optimized/HumanEval/train/round_723
+2025-07-23 20:23:57.223 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/4
+2025-07-23 20:25:06.397 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-23 20:25:06.399 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-23 20:25:06.663 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:216 - Repetition 1: Batch 1 RL Loss: 3.8738, VAE Loss: 0.0100, Total: 3.8738
+2025-07-23 20:31:50.519 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:119 - maas/ext/maas/scripts/optimized/HumanEval/train/round_723
+2025-07-23 20:31:50.561 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/4
+2025-07-23 20:33:11.281 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:119 - maas/ext/maas/scripts/optimized/HumanEval/train/round_723
+2025-07-23 20:33:11.322 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/4
+2025-07-23 20:33:31.510 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: 'NoneType' object has no attribute 'api_type'
+2025-07-23 20:33:31.510 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: 'NoneType' object has no attribute 'api_type'
+2025-07-23 20:33:31.510 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-23 20:33:31.511 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-23 20:33:31.511 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-23 20:33:31.567 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:221 - Repetition 1: Batch 1 Loss does not require grad and was skipped.
+2025-07-23 20:35:09.414 | INFO     | maas.ext.maas.scripts.optimizer:_optimize_graph_maas:119 - maas/ext/maas/scripts/optimized/HumanEval/train/round_723
+2025-07-23 20:35:09.454 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:144 - Starting training repetition 1/4
+2025-07-23 20:35:29.626 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: 'NoneType' object has no attribute 'api_type'
+2025-07-23 20:35:29.627 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: 'NoneType' object has no attribute 'api_type'
+2025-07-23 20:35:29.627 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: 'NoneType' object has no attribute 'api_type'
+2025-07-23 20:35:29.627 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-23 20:35:29.628 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-23 20:35:29.682 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:221 - Repetition 1: Batch 1 Loss does not require grad and was skipped.
+2025-07-23 20:35:49.733 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: 'NoneType' object has no attribute 'api_type'
+2025-07-23 20:35:49.733 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-23 20:35:49.734 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-23 20:35:49.734 | INFO     | maas.ext.maas.benchmark.humaneval:evaluate_problem:159 - Maximum retries reached. Skipping this sample. Error: list index out of range
+2025-07-23 20:35:49.734 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:183 - 开始计算log 和vae的loss了================================================================================================
+2025-07-23 20:35:49.735 | INFO     | maas.ext.maas.benchmark.benchmark:evaluate_all_problems:221 - Repetition 1: Batch 2 Loss does not require grad and was skipped.
