@@ -1,9 +1,0 @@
-2025-07-05 20:06:53.340 | INFO     | maas.ext.maas.scripts.optimizer:test:142 - maas/ext/maas/scripts/optimized/MATH/train/round_1/MATH_controller_sample4.pth
-2025-07-05 20:07:16.677 | INFO     | maas.ext.maas.benchmark.benchmark:save_results_to_csv:69 - Results saved to maas/ext/maas/scripts/optimized/MATH/test/round_1/0.00000_20250705_200716_0.00192045_0.00192045.csv
-2025-07-05 20:07:16.677 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:212 - Average score on MATH dataset: 0.00000
-2025-07-05 20:08:46.250 | INFO     | maas.ext.maas.scripts.optimizer:test:142 - maas/ext/maas/scripts/optimized/MATH/train/round_1/MATH_controller_sample4.pth
-2025-07-05 20:09:17.066 | INFO     | maas.ext.maas.benchmark.benchmark:save_results_to_csv:69 - Results saved to maas/ext/maas/scripts/optimized/MATH/test/round_1/0.00000_20250705_200917_0.0025922999999999996_0.0025922999999999996.csv
-2025-07-05 20:09:17.067 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:212 - Average score on MATH dataset: 0.00000
-2025-07-05 20:10:51.678 | INFO     | maas.ext.maas.scripts.optimizer:test:142 - maas/ext/maas/scripts/optimized/MATH/train/round_2/MATH_controller_sample4.pth
-2025-07-05 20:11:17.673 | INFO     | maas.ext.maas.benchmark.benchmark:save_results_to_csv:69 - Results saved to maas/ext/maas/scripts/optimized/MATH/test/round_2/0.00000_20250705_201117_0.0021671999999999998_0.0021671999999999998.csv
-2025-07-05 20:11:17.674 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:212 - Average score on MATH dataset: 0.00000

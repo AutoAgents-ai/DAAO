@@ -1,7 +1,7 @@
 import argparse
-from maas.configs.models_config import ModelsConfig
-from maas.ext.maas.scripts.optimizer import Optimizer
-from maas.ext.maas.benchmark.experiment_configs import EXPERIMENT_CONFIGS
+from daao.configs.models_config import ModelsConfig
+from daao.ext.maas.scripts.optimizer import Optimizer
+from daao.ext.maas.benchmark.experiment_configs import EXPERIMENT_CONFIGS
 
 def parse_args():
     parser = argparse.ArgumentParser(description="MAAS Optimizer")
@@ -16,7 +16,7 @@ def parse_args():
     parser.add_argument(
         "--optimized_path",
         type=str,
-        default="maas/ext/maas/scripts/optimized",
+        default="daao/ext/maas/scripts/optimized",
         help="Optimized result save path",
     )
     parser.add_argument("--round", type=int, default=1, help="choice the round of optimized")
@@ -33,8 +33,8 @@ def parse_args():
         default="gpt-4o-mini",
         help="Specifies the name of the model used for execution tasks.",
     )
-    parser.add_argument("--is_test",type=bool, default=False, help="choice the optimizer mode")
-    parser.add_argument("--is_textgrad", type = bool, default=False, help="choice to use textgrad")
+    parser.add_argument("--is_test", action="store_true", help="Run in test mode (evaluate a trained controller)")
+    parser.add_argument("--is_textgrad", action="store_true", help="Enable TextGrad optimization")
     parser.add_argument("--lr", type=float, default=0.01, help="learning rate")
     return parser.parse_args()
 

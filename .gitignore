@@ -1,0 +1,36 @@
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive / local config with keys
+.maas/config2.yaml
+
+# Model files
+all-MiniLM-L6-v2/
+
+# Training outputs
+daao/ext/maas/scripts/optimized/*/train/round_*/
+daao/ext/maas/scripts/optimized/*/test/round_*/

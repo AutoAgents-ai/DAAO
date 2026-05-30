@@ -1,3 +1,0 @@
-2025-07-18 15:57:18.062 | INFO     | maas.ext.maas.scripts.optimizer:test:159 - maas/ext/maas/scripts/optimized/MATH/train/round_11/MATH_controller_sample4.pth
-2025-07-18 15:57:55.279 | INFO     | maas.ext.maas.benchmark.benchmark:save_results_to_csv:86 - Results saved to maas/ext/maas/scripts/optimized/MATH/test/round_11/0.00000_20250718_155755.csv
-2025-07-18 15:57:55.279 | INFO     | maas.ext.maas.benchmark.benchmark:run_evaluation:256 - Average score on MATH dataset: 0.00000
